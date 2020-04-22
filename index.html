@@ -2,13 +2,16 @@
 <html lang="nl">
 
 <head>
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
-  <link rel="stylesheet" type="text/css" href="localstyle.css" />
-  <title>BRO Gegevenscatalogus Toegepaste geotechnisch booronderzoek - geotechniek (BHR-AG)</title>
-  <script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
-  <script class="remove" src="config.js"></script>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
+	<link rel="stylesheet" type="text/css" href="localstyle.css" />
+	<title>
+	<p>Basisregistratie Ondergrond (BRO) Catalogus</p> 
+	<P>Booronderzoek toegepast geologische boormonsterbeschrijving</p>
+	</title>
+	<script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
+	<script class="remove" src="config.js"></script>
 </head>
 
 <body>
@@ -22,29 +25,30 @@
   <!-- STATUS DOCUMENT-->
   <section id='sotd'></section>
 
-  <!-- INLEIDING -->
-  <section id='inleiding'>
-    <h2>Inleiding</h2>
-    <section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'>
-    </section>
-    <section id='totstandkoming' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/totstandkoming.html'>
-    </section>
-    <section id='beheer' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/beheer.html'>
-    </section>
-    <section id="leeswijzer">
-    <h3>Leeswijzer</h3>
-      	<p><a href ="#inleiding">Hoofdstuk 1</a> geeft het doel en de doelgroep van een catalogus.</p>
-	    <p><a href ="#algemene-kenmerken-en-begrippen">Hoofdstuk 2</a> behandelt enkele algemene aspecten van het BRO-systeem en begrippen van algemene aard.</p>
-	    <p><a href ="#bodemkundig wandonderzoek">Hoofdstuk 3</a> plaatst het object in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de <a href="#cat">gegevensdefinitie</a>.</p>
-	    <p><a href ="#intro-gegevensdefinitie">Hoofdstuk 4</a> vertelt hoe de catalogus is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
-    </section>
-  </section>
+  <!-- H1 INLEIDING -->
+	<section id='inleiding'>
+	<h2>Inleiding</h2>
+		<section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'>
+		</section>
+		<section id='totstandkoming' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/totstandkoming.html'>
+		</section>
+		<section id='beheer' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/beheer.html'>
+		</section>
+		<section id="leeswijzer">
+		<h3>Leeswijzer</h3>
+			<p><a href ="#inleiding">Hoofdstuk 1</a> geeft het doel en de doelgroep van een catalogus.</p>
+			<p><a href ="#algemene-kenmerken-en-begrippen">Hoofdstuk 2</a> behandelt enkele algemene aspecten van het BRO-systeem en begrippen van algemene aard.</p>
+			<p><a href ="#bodemkundig wandonderzoek">Hoofdstuk 3</a> plaatst het object in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de <a href="#cat">gegevensdefinitie</a>.</p>
+			<p><a href ="#intro-gegevensdefinitie">Hoofdstuk 4</a> vertelt hoe de catalogus is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
+		</section>
+	</section>
  
-  <!-- ALGEMENE KENMERKEN EN BEGRIPPEN-->
-  <section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
-    class='generic'></section>
-
-  <!-- INTRODUCTIE GEGEVENSDEFINITIE GENERIEK-->
+  <!-- H2 ALGEMENE KENMERKEN EN BEGRIPPEN-->
+	<section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html' class='generic informative'>
+	</section>
+  
+ 
+  <!-- H4 INTRODUCTIE GEGEVENSDEFINITIE GENERIEK-->
   <section id="intro-gegevensdefinitie">
     <h2>De inhoud van de catalogus</h2>
      <div id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html" class="generic"></div>
@@ -64,11 +68,9 @@
     <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html" class="generic"></section>
   </section>
   
-  <!-- MODEL -->
+  <!-- H5 en H6 GEGEVENSDEFINITIE -->
   <div data-include="data/BHR-AG-cat.respec.html" data-include-replace=true></div>
   
-  <!-- BESCHRIJVING -->
-  <section id="toegepast-booronderzoek-model" data-format="markdown" data-include='bhr-ag-beschrijving.md'></section>
 </body>
 
 </html>
