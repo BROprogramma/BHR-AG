@@ -6,10 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
 	<link rel="stylesheet" type="text/css" href="localstyle.css" />
-	<title>
-	<p>Basisregistratie Ondergrond (BRO) Catalogus</p> 
-	<p>Booronderzoek toegepast geologische boormonsterbeschrijving</p>
-	</title>
+	<title>Basisregistratie Ondergrond (BRO) Catalogus Booronderzoek toegepast geologische boormonsterbeschrijving</title>
 	<script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
 	<script class="remove" src="config.js"></script>
 </head>
@@ -49,24 +46,24 @@
   
  
   <!-- H4 INTRODUCTIE GEGEVENSDEFINITIE GENERIEK-->
-  <section id="intro-gegevensdefinitie">
+	<section id="intro-gegevensdefinitie" class='generic informative'>
     <h2>De inhoud van de catalogus</h2>
-     <div id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html" class="generic"></div>
-    <section data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html" class="generic"></section>
-    <section id="type-formaten">
-      <h3>Formaten in de gegevensdefinitie</h3>
-      <!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
-      <p>Een formaat beschrijft welke waarden een attribuut mag hebben. Formaten zijn van een bepaald type. De typen die in de gegevensdefinitie gebruikt zijn, worden hieronder toegelicht.</p>
-      <section id="enumeratie" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html" class="generic"></section>
-      <section id="codelijst" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html" class="generic"></section>
-      <section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html" class="generic"></section>
-      <section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html" class="generic"></section>
-      <section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html" class="generic"></section>
-      <section id="datumtijd" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html" class="generic"></section>
-      <section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html" class="generic"></section>    
-    </section>
-    <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html" class="generic"></section>
-  </section>
+    <div id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></div>
+		<section id='gegevensdefinitie' data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
+		<section id="type-formaten">
+		<h3>Domeinen</h3>
+		<!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
+		<p>Een domein beschrijft welke waarden een attribuut mag hebben. Formaten zijn van een bepaald type. De typen die in de gegevensdefinitie gebruikt zijn, worden hieronder toegelicht.</p>
+			<section id="enumeratie" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html"></section>
+			<section id="codelijst" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html"></section>
+			<section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html"></section>
+			<section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html"></section>
+			<section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html"></section>
+			<section id="datumtijd" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html"></section>
+			<section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html"></section>    
+		</section>
+    <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
+	</section>
   
   <!-- H5 en H6 GEGEVENSDEFINITIE -->
   <div data-include="data/BHR-AG-cat.respec.html" data-include-replace=true></div>
