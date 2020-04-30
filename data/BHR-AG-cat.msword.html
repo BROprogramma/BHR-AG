@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Toegepast geotechnisch booronderzoek (BHR-AG) conceptueel/20200401</p>
       <p>Imvertor: 1.59.3</p>
-      <p>Model release: Conceptualmodel-ToegepastgeotechnischbooronderzoekBHR-AGconceptueel-0.1-1-20200401-20200430-210727</p>
+      <p>Model release: Conceptualmodel-ToegepastgeotechnischbooronderzoekBHR-AGconceptueel-0.1-1-20200401-20200430-220409</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -573,17 +573,19 @@
                                  
                                  <p>Het vakgebied is een gegeven dat dient om een categorie van booronderzoek in de registratie
                                     ondergrond te identificeren. Het gegeven bepaalt hoe het onderzoek is uitgevoerd en
-                                    welke gegevens en categorieën van gegevens vastgelegd kunnen zijn. Naast geotechnisch
-                                    booronderzoek worden geologisch booronderzoek, toegepast geologisch booronderzoek,
-                                    bodemkundig booronderzoek en cultuurtechnisch booronderzoek onderscheiden.
+                                    welke gegevens en categorieën van gegevens vastgelegd kunnen zijn. Onder toegepast
+                                    geologisch onderzoek wordt geologisch onderzoek verstaan dat een generiek karakter
+                                    heeft en voor allerlei verkenningen wordt uitgevoerd, waaronder geohydrologische verkenningen.
+                                    Naast toegepast geologisch booronderzoek worden geologisch booronderzoek, geotechnisch
+                                    booronderzoek, bodemkundig booronderzoek en cultuurtechnisch booronderzoek onderscheiden.
                                     In de uitvoeringspraktijk komt het voor dat in een booronderzoek gegevens worden vastgelegd
                                     die onder een van de vijf vakgebieden vallen en gegevens die eigenlijk in het domein
                                     van de milieukunde of de archeologie thuishoren. Omdat die disciplines buiten het
                                     bereik van de basisregistratie ondergrond liggen, zijn die extra gegevens niet gedefinieerd.
-                                    Geotechnisch booronderzoek met een dergelijk multidisciplinair karakter wordt in de
-                                    basisregistratie ondergrond opgenomen maar zonder die extra gegevens. Om gebruikers
+                                    Toegepast geologisch booronderzoek met een dergelijk multidisciplinair karakter wordt
+                                    in de basisregistratie ondergrond opgenomen maar zonder die extra gegevens. Om gebruikers
                                     duidelijk te maken dat de onderzoeksresultaten niet volledig geregistreerd zijn wordt
-                                    als waarde voor het vakgebied niet de waarde <em>geotechniek</em> vermeld, maar een waarde als <em>geotechniekArcheologie</em>.
+                                    als waarde voor het vakgebied niet de waarde <em>toegepasteGeologie</em> vermeld, maar een waarde als <em>toegepasteGeologieMilieukunde</em>.
                                  </p>
                                  
                               </td>
@@ -628,10 +630,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datum</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
@@ -776,8 +774,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" id="detail_attribute_Model_Booronderzoek_boorgatlogginguitgevoerd"></a><section id="detail_attribute_Model_Booronderzoek_boorgatlogginguitgevoerd">
-                     <h4>  boorgatlogging uitgevoerd</h4>
+                  </section><a class="anchor" id="detail_attribute_Model_Booronderzoek_boorgatgelogd"></a><section id="detail_attribute_Model_Booronderzoek_boorgatgelogd">
+                     <h4>  boorgat gelogd</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -788,12 +786,20 @@
                               <td>Attribuut van Booronderzoek</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De aanduiding die aangeeft of er in het boorgat gelogd is.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
-                              <td>Authentiek</td>
+                              <td>Niet-authentiek</td>
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>1</td>
+                              <td>0..1</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -806,6 +812,18 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst niet uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het deelonderzoek boorgatlogging valt nog niet onder de definitie van geologisch toegepast
+                                    booronderzoek. Het gegeven is opgenomen om gebruikers te informeren dat er buiten
+                                    de registratie ondergrond boorgatmeetgegevens beschikbaar zijn die voortkomen uit
+                                    de opdracht tot het uitvoeren van het booronderzoek. 
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -1588,10 +1606,6 @@
                               <td>Datum</td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
-                           </tr>
-                           <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>1 januari 1980 tot heden</td>
                            </tr>
@@ -1658,10 +1672,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datum</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
@@ -1810,10 +1820,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datum</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
@@ -2001,10 +2007,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datum</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
@@ -2451,10 +2453,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datum</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
@@ -3029,10 +3027,6 @@
                               <td>Datum</td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
-                           </tr>
-                           <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>1 januari 1980 tot heden</td>
                            </tr>
@@ -3082,10 +3076,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datum</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
@@ -3702,10 +3692,6 @@
                               <td>IndicatieJaNee</td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>IndicatieJaNeeOnbekend</td>
-                           </tr>
-                           <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst niet uitbreidbaar</td>
                            </tr>
@@ -3790,8 +3776,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" id="detail_attribute_Model_Boring_dieptekleurverandering"></a><section id="detail_attribute_Model_Boring_dieptekleurverandering">
-                     <h4>  diepte kleurverandering</h4>
+                  </section><a class="anchor" id="detail_attribute_Model_Boring_dieptekleurveranderingwerkwater"></a><section id="detail_attribute_Model_Boring_dieptekleurveranderingwerkwater">
+                     <h4>  diepte kleurverandering werkwater</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3800,6 +3786,16 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Boring</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Een diepte waarop de kleur van het werkwater opvallend is veranderd zonder dat er
+                                    een verandering in de monsters is waargenomen.
+                                 </p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -3828,6 +3824,24 @@
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>0 tot 300</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Tijdens het boren wordt soms een verandering in de kleur van het werkwater waargenomen
+                                    die wijst op een verandering die niet tot uitdrukking komt in de monsters. Zo kan
+                                    in gebieden met gestuwde lagen het werkwater op een bepaald moment oranje verkleuren
+                                    terwijl er in de monsters niets lijkt te veranderen. Die verkleuring geeft aan dat
+                                    er  een grensvlak waar aanreiking van ijzer(hydr)oxiden heeft plaatsgevonden is doorboord.
+                                    Een dergelijk grensvlak wordt geïnterpreteerd als een vlak waarlangs beweging heeft
+                                    plaatsgevonden (glijvlak) en duidt op de aanwezigheid van een dunne kleilaag. De diepte
+                                    van de verandering in de ondergrond kan met een nauwkeurigheid van ongeveer een halve
+                                    meter worden geschat. Het gegeven wordt alleen vastgelegd wanneer de uitvoerder van
+                                    oordeel is dat de kleurverandering relevant is.
+                                 </p>
+                                 
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -4112,10 +4126,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>IndicatieJaNee</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>IndicatieJaNeeOnbekend</td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
@@ -6582,7 +6592,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>90 tot 800</td>
+                              <td>90 tot 5000</td>
                            </tr>
                            <tr>
                               <th>Regels</th>
@@ -13269,53 +13279,36 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>bouwwerk</td>
+                     <td>bodemenergieGesloten</td>
                      <td>
                         
-                        <p>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen
-                           die voor gebouwen, kunstwerken die deel uitmaken van de wegen, waterwegen en spoorwegen
-                           en andere bouwwerken van belang zijn. Het accent ligt veelal op onderzoek voor de
-                           berekening van de fundering.
-                        </p>
+                        <p>Onderzoek voor de aanleg van een gesloten bodemenergiesysteem.</p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>controleOnderzoek</td>
+                     <td>bodemenergieOpen</td>
                      <td>
                         
-                        <p>Onderzoek met als doel om vast te stellen of er als het gevolg van werkzaamheden veranderingen
-                           in de ondergrond zijn opgetreden. Dit onderzoek heeft veelal een lokaal karakter.
-                           Voorafgaand aan de werkzaamheden is ook onderzoek gedaan en dat geldt als referentie.
-                        </p>
+                        <p>Onderzoek voor de aanleg van een open bodemenergiesysteem.</p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>detectieObstakels</td>
+                     <td>grondwaterputMonitoring</td>
                      <td>
                         
-                        <p>Onderzoek naar de diepte en ligging van obstakels in de ondergrond (natuurlijk of
-                           door de mens gemaakt).
-                        </p>
+                        <p>Onderzoek voor de aanleg van een grondwatermonitoringput.</p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>gevoeligheidsOnderzoek</td>
+                     <td>grondwaterputProductie</td>
                      <td>
                         
-                        <p>Onderzoek met als doel de aardbevingsgevoeligheid, trillingsgevoeligheid of erosiegevoeligheid
-                           van de ondergrond te bepalen.
+                        <p>Onderzoek voor de aanleg van een put voor het onttrekken van grondwater of het infiltreren
+                           water.
                         </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>grondwaterput</td>
-                     <td>
-                        
-                        <p>Onderzoek voor de aanleg van grondwatermonitoringputten of grondwatergebruiksystemen.</p>
                         
                      </td>
                   </tr>
@@ -13324,75 +13317,8 @@
                      <td>
                         
                         <p>Onderzoek met als hoofddoel de geohydrologische eigenschappen van de ondergrond te
-                           bepalen ten behoeve van bronbemaling, grondwateronttrekking, waterinfiltratie of peilbeheer.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>infrastructuurLand</td>
-                     <td>
-                        
-                        <p>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen
-                           voor de aanleg en het onderhoud van wegen, spoorwegen, fiets- en voetpaden.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>infrastructuurWater</td>
-                     <td>
-                        
-                        <p>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen
-                           voor de aanleg en het onderhoud van waterwegen.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>kabelsLeidingen</td>
-                     <td>
-                        
-                        <p>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen
-                           voor de aanleg en het onderhoud van kabels en leidingen.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>monitoring</td>
-                     <td>
-                        
-                        <p>Onderzoek met als doel het beoordelen van veranderingen in de toestand van de ondergrond
-                           die het gevolg zijn van natuurlijke of door de mens in gang gezette processen of herhaaldelijk
-                           optredende gebeurtenissen; voorbeelden zijn bodemdaling, verdroging, trillingen en
-                           aardbevingen.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>ontgronding</td>
-                     <td>
-                        
-                        <p>Onderzoek ten behoeve van ontgrondingen (bijvoorbeeld zandwinning, grindwinning, baggeren).</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>verkennendOnderzoek</td>
-                     <td>
-                        
-                        <p>Verkennend geotechnisch onderzoek.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>waterkering</td>
-                     <td>
-                        
-                        <p>Onderzoek met als hoofddoel de geotechnische eigenschappen te bepalen voor de aanleg
-                           en het onderhoud alsmede beoordeling van dijken en dammen.
+                           bepalen ten behoeve van bronbemaling, grondwateronttrekking, waterinfiltratie, de
+                           potentie voor warmte-koudeopslag of peilbeheer.
                         </p>
                         
                      </td>
@@ -16507,39 +16433,39 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>geotechniek</td>
+                     <td>toegepasteGeologie</td>
                      <td>
                         
-                        <p>Booronderzoek uitgevoerd vanuit geotechnische expertise.</p>
+                        <p>Booronderzoek uitgevoerd vanuit toegepast geologische expertise.</p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>geotechniekArcheologie</td>
+                     <td>toegepasteGeologieArcheologie</td>
                      <td>
                         
-                        <p>Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit archeologische
-                           expertise.
+                        <p>Booronderzoek uitgevoerd vanuit toegepast geologische expertise met ondersteuning
+                           vanuit archeologische expertise.
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>geotechniekArcheologieMilieukunde</td>
+                     <td>toegepasteGeologieArcheologieMilieukunde</td>
                      <td>
                         
-                        <p>Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit archeologische
-                           en milieukundige expertise.
+                        <p>Booronderzoek uitgevoerd vanuit toegepast geologische expertise met ondersteuning
+                           vanuit archeologische en milieukundige expertise.
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>geotechniekMilieukunde</td>
+                     <td>toegepasteGeologieMilieukunde</td>
                      <td>
                         
-                        <p>Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit milieukundige
-                           expertise.
+                        <p>Booronderzoek uitgevoerd vanuit toegepast geologische expertise met ondersteuning
+                           vanuit milieukundige expertise.
                         </p>
                         
                      </td>
@@ -16693,40 +16619,10 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>bevriezing</td>
-                     <td>
-                        
-                        <p>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde
-                           diepte bevroren.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
                      <td>geen</td>
                      <td>
                         
                         <p>De uitvoerder heeft geen voorbereidende werkzaamheden uitgevoerd.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>injectieDragendVermogen</td>
-                     <td>
-                        
-                        <p>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde
-                           diepte geïnjecteerd met materiaal om het dragend vermogen te vergroten.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>injectieWaterdoorlatendheid</td>
-                     <td>
-                        
-                        <p>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde
-                           diepte geïnjecteerd met materiaal om de waterdoorlatendheid te verkleinen.
-                        </p>
                         
                      </td>
                   </tr>
@@ -16741,21 +16637,11 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>vacuumconsolidatie</td>
+                     <td>permanenteVerbuizingVooraf</td>
                      <td>
                         
                         <p>De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de
-                           ondergrond vacuümconsolidatie toegepast.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>verticaleDrainage</td>
-                     <td>
-                        
-                        <p>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde
-                           diepte verticaal gedraineerd (strips, grindpalen, etc.).
+                           ondergrond een buis aangebracht die na afloop van de werkzaamheden moet blijven staan.
                         </p>
                         
                      </td>
@@ -16787,6 +16673,14 @@
                   <tr>
                      <th>Waarde</th>
                      <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>funderingsmateriaal</td>
+                     <td>
+                        
+                        <p>Materiaal dat gebruikt is voor het funderen van bouwwerken.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>grind</td>
