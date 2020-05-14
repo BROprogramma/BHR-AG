@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GrondsoortISO14688>
+		<Waarde>keien</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die voor meer dan 95 % uit keien bestaat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keienMetGrind</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die voor 50 tot 95 % uit keien en voor de rest vooral uit grind bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keienMetZand</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die voor 50 tot 95 % uit keien en voor de rest vooral uit zand bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keienMetSilt</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die bestaat uit keien die elkaar raken met daartussen fijn materiaal dat zich gedraagt als silt. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keienMetKlei</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die bestaat uit keien die elkaar raken met daartussen fijn materiaal dat zich gedraagt als klei. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keitjes</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die voor meer dan 95 % uit keitjes bestaat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keitjesMetGrind</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die voor 50 tot 95 % uit keitjes en voor de rest vooral uit grind bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keitjesMetZand</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die voor 50 tot 95 % uit keitjes en voor de rest vooral uit zand bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keitjesMetSilt</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die bestaat uit keitjes die elkaar raken met daartussen fijn materiaal dat zich gedraagt als silt. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>keitjesMetKlei</Waarde>
+		<Categorie>zeer grove grond</Categorie>
+		<Omschrijving>Zeer grove minerale grond die bestaat uit keitjes die elkaar raken met daartussen fijn materiaal dat zich gedraagt als klei. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>grind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 95 % uit grind bestaat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>grindMetKeien</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor 50 tot 95 % uit grind en voor de rest vooral uit keien bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>grindMetKeitjes</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor 50 tot 95 % uit grind en voor de rest vooral uit keitjes bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigGrind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 50 % uit grind en voor 5 tot 20 % uit zand bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigGrind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 50 % uit grind en voor meer dan 20 % uit zand bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltigGrind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die bestaat uit grind waarvan de korrels elkaar raken met daartussen fijn materiaal dat zich gedraagt als silt. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiigGrind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die uit grind bestaat waarvan de korrels elkaar raken met daartussen fijn materiaal dat zich gedraagt als klei. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zand</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 95 % uit zand bestaat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zandMetKeien</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor 50 tot 95 % uit zand en voor de rest vooral uit keien bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zandMetKeitjes</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor 50 tot 95 % uit zand en voor de rest vooral uit keitjes bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakGrindigZand</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 50 % uit zand en voor 5 tot 20 % uit grind bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkGrindigZand</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 50 % uit zand en voor meer dan 20 % uit grind bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltigZand</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal dat zich gedraagt als silt. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltigZandMetGrind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 50 % uit zand bestaat, en verder vooral uit fijn materiaal dat zich gedraagt als silt, en grind bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiigZand</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 90 % uit zand bestaat en verder uit fijn materiaal dat zich gedraagt als klei. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiigZandMetGrind</Waarde>
+		<Categorie>grove grond</Categorie>
+		<Omschrijving>Grove minerale grond die voor meer dan 90 % uit zand bestaat en verder vooral uit fijn materiaal dat zich gedraagt als klei, en grind bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>silt</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, geen grind of zeer grof materiaal en geen zichtbaar of voelbaar zand (bij uitsmeren over de hand) bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltMetKeien</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt en keien en ander zeer grof en grof materiaal bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltMetKeitjes</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt en keitjes en grof materiaal bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakGrindigSilt</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, geen zeer grof materiaal en enkele grindkorrels bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkGrindigSilt</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, geen zeer grof materiaal en veel grindkorrels bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigSilt</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, zichtbaar en nauwelijks voelbaar zand en geen grind of zeer grof materiaal bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigSiltMetGrind</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, zichtbaar en nauwelijks voelbaar zand en enkele grindkorrels bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigSilt</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar zand en geen grind of zeer grof materiaal bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigSiltMetGrind</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar zand en enkele grindkorrels bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>klei</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal en geen zichtbaar of voelbaar zand bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiMetKeien</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, keien bevat tot een maximum van 30% en voor een niet nader bepaald deel uit ander zeer grof en grof materiaal bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiMetKeitjes</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, keitjes bevat tot een maximum van 30% en voor een niet nader bepaald deel uit grof materiaal bestaat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakGrindigeKlei</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, enkele grindkorrels en geen zichtbaar of voelbaar zand bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkGrindigeKlei</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, veel grindkorrels en geen zichtbaar of voelbaar zand bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigeKlei</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar zand en geen grind of grover materiaal bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigeKleiMetGrind</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar zand en enkele grindkorrels bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigeKlei</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en duidelijk voelbaar zand en geen grind of grover materiaal bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigeKleiMetGrind</Waarde>
+		<Categorie>fijne grond</Categorie>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en duidelijk voelbaar zand en enkele grindkorrels bevat. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>detritus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit detritus bestaat, een organisch materiaal met nauwelijks enige treksterkte, dat uit gebroken vezels bestaat en weinig samenhang vertoont. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigeDetritus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit detritus bestaat en voelbaar zandkorrels bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigeDetritus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit detritus bestaat en zichtbaar zandkorrels bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltigeDetritus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit detritus bestaat en waarneembaar silt bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiigeDetritus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit detritus bestaat en waarneembaar klei bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>humus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit humus bestaat, een gehomogeniseerd mengsel zonder treksterkte dat hoofdzakelijk bestaat uit de niet-makkelijk afbreekbare resten van de bovengrondse delen van planten. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigeHumus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit humus bestaat en voelbaar zandkorrels bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigeHumus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit humus bestaat en zichtbaar zandkorrels bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltigeHumus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit humus bestaat en waarneembaar silt bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiigeHumus</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit humus bestaat en waarneembaar klei bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>veen</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit veen bestaat, een vezelig en samenhangend organisch materiaal met enige treksterkte dat bestaat uit de nog gedeeltelijk als zodanig herkenbare delen van planten. </Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>zwakZandigVeen</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit veen bestaat en voelbaar zandkorrels bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>sterkZandigVeen</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit veen bestaat en zichtbaar zandkorrels bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>siltigVeen</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit veen bestaat en waarneembaar silt bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>kleiigVeen</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond die uit veen bestaat en waarneembaar klei bevat.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>bruinkool</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond, die compact is en een hoge treksterkte heeft.</Omschrijving>
+	</GrondsoortISO14688>
+	<GrondsoortISO14688>
+		<Waarde>gyttja</Waarde>
+		<Categorie>organische grond</Categorie>
+		<Omschrijving>Organische grond, die amorf is, stroef aanvoelt en een pasta-achtige consistentie heeft. </Omschrijving>
+	</GrondsoortISO14688>
+</domeintabel>
