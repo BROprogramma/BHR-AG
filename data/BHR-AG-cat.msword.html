@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Toegepast geotechnisch booronderzoek (BHR-AG) conceptueel/20200401</p>
       <p>Imvertor: 1.59.4</p>
-      <p>Model release: Conceptualmodel-ToegepastgeotechnischbooronderzoekBHR-AGconceptueel-0.1-1-20200401-20200513-234239</p>
+      <p>Model release: Conceptualmodel-ToegepastgeotechnischbooronderzoekBHR-AGconceptueel-0.1-1-20200401-20200514-210757</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -54,8 +54,9 @@
                               uitzondering van onderzoek dat onder het regime van de Mijnbouwwet valt en onderzoek
                               dat met het oog op de beoordeling van de bodemmilieukwaliteit of vanuit de archeologie
                               wordt uitgevoerd. Ieder object heeft ter identificatie een eigen BRO-ID.<br clear="none">
-                              De huidige gegevensdefinitie beschrijft alleen het basis booronderzoek en beperkt
-                              zich verder tot de boormonsterbeschrijving. 
+                              De huidige gegevensdefinitie beschrijft alleen het basis booronderzoek onder IMBRO/A
+                              en beperkt zich verder tot de boormonsterbeschrijving van grond op basis van geroerde
+                              monsters.
                            </p>
                            
                         </td>
@@ -72,9 +73,9 @@
                      <area shape="rect" alt="Vlek" coords="412,853,673,915" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
                      <area shape="rect" alt="Brokje" coords="412,746,673,821" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
                      <area shape="rect" alt="Bijzonder bestanddeel" coords="412,639,673,714" href="#graph_EAID_3879AC64_BE06_4f16_8D2C_7A9036DEBFEA">
-                     <area shape="rect" alt="Bijzonder materiaal" coords="412,474,673,523" href="#graph_EAID_1372ED4A_302E_492a_965B_49C68209085C">
-                     <area shape="rect" alt="Grond" coords="10,639,320,753" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1">
-                     <area shape="rect" alt="Laag" coords="10,425,320,539" href="#graph_EAID_20CDA08D_E15D_448d_BE07_575D49BAD77C"></map><p><b>Domeinmodel toegepast geologisch booronderzoek - Boormonsterbeschrijving</b></p>
+                     <area shape="rect" alt="Bijzonder materiaal" coords="412,490,673,539" href="#graph_EAID_1372ED4A_302E_492a_965B_49C68209085C">
+                     <area shape="rect" alt="Grond" coords="10,639,320,766" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1">
+                     <area shape="rect" alt="Laag" coords="10,425,320,526" href="#graph_EAID_20CDA08D_E15D_448d_BE07_575D49BAD77C"></map><p><b>Domeinmodel toegepast geologisch booronderzoek - Boormonsterbeschrijving</b></p>
                </div>
             </section>
          </section>
@@ -109,7 +110,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>Exact één van de volgende gegevens moet aanwezig zijn: Het attribuut <em>bijzonder materiaal</em>, de entiteit <em>Grond</em> of de entiteit <em>Gesteente</em>.
+                              <p>Exact één van de volgende entiteiten moet aanwezig zijn: de entiteit <em>Bijzonder materiaal</em> of de entiteit <em>Grond</em>.
                               </p>
                               
                            </td>
@@ -120,7 +121,7 @@
                               
                               <p>De ondergrond wordt beschouwd als opgebouwd uit lagen en dat zijn homogene eenheden
                                  die zich vooral in horizontale richting uitstrekken en in verticale richting duidelijk
-                                 begrensd zijn. Een laag bestaat uit grond, gesteente of uit bijzonder materiaal.
+                                 begrensd zijn. Een laag bestaat uit grond of uit bijzonder materiaal.
                               </p>
                               
                               <p>Een laag in een boorprofiel is een laag waarvan de grenzen in de monsters bepaald
@@ -179,18 +180,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>0 tot 300</td>
-                           </tr>
-                           <tr>
-                              <th>Regels</th>
-                              <td>
-                                 
-                                 <p>De lagen en niet-beschreven intervallen van het boorprofiel moet precies op elkaar
-                                    aansluiten wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>ja</em>.<br clear="none">
-                                    De lagen en niet-beschreven intervallen van het boorprofiel mogen elkaar niet overlappen
-                                    wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>nee</em>.
-                                 </p>
-                                 
-                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -421,66 +410,6 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" id="detail_attribute_Model_Laag_typeingreep"></a><section id="detail_attribute_Model_Laag_typeingreep">
-                     <h4>  type ingreep</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Laag</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>De omschrijving van de wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen.</p>
-                                 
-                              </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>0..1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_TypeIngreep">TypeIngreep</a></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Waardelijst uitbreidbaar</td>
-                           </tr>
-                           <tr>
-                              <th>Regels</th>
-                              <td>
-                                 
-                                 <p>[TODO]</p>
-                                 
-                              </td>
-                           </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van monsters uit handboringen.
-                                    
-                                 </p>
-                                 
-                              </td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     
                   </section>
                </section><a class="anchor" id="graph_EAID_1372ED4A_302E_492a_965B_49C68209085C"></a><a class="anchor" id="global_class_Model_Bijzondermateriaal"></a><section id="global_class_Model_Bijzondermateriaal">
                   <h3>   Bijzonder materiaal</h3>
@@ -494,6 +423,30 @@
                         <tr>
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>Het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt
+                                 beschouwd, bestaat.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>Een laag bestaat uit bijzonder materiaal wanneer meer dan 50 % van de massa bijzonder
+                                 materiaal is, en bij een groot verschil in volumieke massa wanneer het materiaal bepalend
+                                 is voor de eigenschappen. Dat materiaal kan zowel natuurlijk als antropogeen van aard
+                                 zijn.<br clear="none">
+                                 Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan
+                                 een laag die uit grond bestaat. 
+                              </p>
+                              
+                           </td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Bijzondermateriaal_soortmateriaal"></a><section id="detail_attribute_Model_Bijzondermateriaal_soortmateriaal">
@@ -511,9 +464,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente
-                                    wordt beschouwd, bestaat.
-                                 </p>
+                                 <p>De naam van het bijzondere materiaal.</p>
                                  
                               </td>
                            </tr>
@@ -537,20 +488,6 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>Een laag bestaat uit bijzonder materiaal wanneer meer dan 50 % van de massa bijzonder
-                                    materiaal is, en bij een groot verschil in volumieke massa wanneer het materiaal bepalend
-                                    is voor de eigenschappen. Dat materiaal kan zowel natuurlijk als antropogeen van aard
-                                    zijn.<br clear="none">
-                                    Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan
-                                    een laag die uit grond of gesteente bestaat.
-                                 </p>
-                                 
-                              </td>
-                           </tr>
                         </tbody>
                      </table>
                      
@@ -558,10 +495,10 @@
                </section><a class="anchor" id="graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1"></a><a class="anchor" id="global_class_Model_Grond"></a><section id="global_class_Model_Grond">
                   <h3>   Grond</h3>
                   <div class="imageinfo "><img src="Images/EAID_F06BCD69_2A9A_4c9b_A602_A07B1622CFDD.png" usemap="#imagemap-EAID_F06BCD69_2A9A_4c9b_A602_A07B1622CFDD" alt="Diagram "><map name="imagemap-EAID_F06BCD69_2A9A_4c9b_A602_A07B1622CFDD">
-                        <area shape="rect" alt="Vlek" coords="459,250,671,330" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
+                        <area shape="rect" alt="Vlek" coords="408,107,620,187" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
                         <area shape="rect" alt="Bijzonder bestanddeel" coords="459,10,668,90" href="#graph_EAID_3879AC64_BE06_4f16_8D2C_7A9036DEBFEA">
-                        <area shape="rect" alt="Brokje" coords="459,130,662,210" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
-                        <area shape="rect" alt="Grond" coords="10,10,332,124" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1"></map><p><b></b></p>
+                        <area shape="rect" alt="Brokje" coords="408,-13,611,67" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
+                        <area shape="rect" alt="Grond" coords="10,10,332,137" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1"></map><p><b></b></p>
                   </div>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -691,6 +628,58 @@
                                     te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik
                                     van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell
                                     kleurenkaarten voor grond en gesteente opgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section><a class="anchor" id="detail_attribute_Model_Grond_gevlekt"></a><section id="detail_attribute_Model_Grond_gevlekt">
+                     <h4>  gevlekt</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Grond</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De aanduiding die aangeeft of de grond vlekken vertoont.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>IndicatieJaNee</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst niet uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling
+                                    van de grond na afzetting van het sediment. 
                                  </p>
                                  
                               </td>
@@ -861,6 +850,17 @@
                                  
                               </td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De zandmediaan wordt bepaald wanneer de primaire fractie zand is. Tenminste wordt
+                                    een indeling van grof, middelgrof of fijn gemaakt, bij voorkeur worden de klassen
+                                    middelgrof en fijn nauwkeuriger ingedeeld.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
                         </tbody>
                      </table>
                      
@@ -910,10 +910,11 @@
                               <td>
                                  
                                  <p>Het hangt van de aard van de opdracht af of het gegeven is vastgelegd. Het gegeven
-                                    kan ervaren gebruikers direct inzicht geven in eigenschappen die in geohydrologisch
-                                    opzicht relevant zijn. Het gegeven heeft eerder een interpretatief dan een beschrijvend
-                                    karakter, maar het niveau van interpretatie is zo globaal dat iedere beschrijver in
-                                    het vakgebied geacht wordt over de noodzakelijke kennis te beschikken.
+                                    kan ervaren gebruikers direct inzicht geven in eigenschappen die in toegepast geologisch
+                                    opzicht relevant zijn.<br clear="none">
+                                    Het gegeven heeft eerder een interpretatief dan een beschrijvend karakter, maar het
+                                    niveau van interpretatie is zo globaal dat iedere beschrijver in het vakgebied geacht
+                                    wordt over de noodzakelijke kennis te beschikken.
                                  </p>
                                  
                               </td>
@@ -935,6 +936,29 @@
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
                         </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend
+                                 en niet bepalend is voor de geotechnische eigenschappen van de grond.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>Onder NEN-EN-ISO 14688 moeten bijzondere bestanddelen worden beschreven wanneer ze
+                                 belangrijk zijn voor het herleiden van de oorsprong van de grond of wanneer ze de
+                                 geotechnische eigenschappen van de grond kunnen beïnvloeden. Bijzondere bestanddelen
+                                 hebben gewoonlijk of een natuurlijke of een antropogene herkomst maar in enkele gevallen
+                                 is beide mogelijk. 
+                              </p>
+                              
+                           </td>
+                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Bijzonderbestanddeel_soortbestanddeel"></a><section id="detail_attribute_Model_Bijzonderbestanddeel_soortbestanddeel">
                      <h4>  soort bestanddeel</h4>
@@ -951,10 +975,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend
-                                    en niet bepalend is voor de geotechnische eigenschappen van de grond met, wanneer
-                                    relevant, aanduiding van de relatieve hoeveelheid ervan.
-                                 </p>
+                                 <p>De naam van het bijzondere bestanddeel.</p>
                                  
                               </td>
                            </tr>
@@ -978,20 +999,6 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>Onder NEN-EN-ISO 14688 moeten bijzondere bestanddelen worden beschreven wanneer ze
-                                    belangrijk zijn voor het herleiden van de oorsprong van de grond of wanneer ze de
-                                    geotechnische eigenschappen van de grond kunnen beïnvloeden. Bijzondere bestanddelen
-                                    hebben gewoonlijk of een natuurlijke of een antropogene herkomst maar in enkele gevallen
-                                    is beide mogelijk. In het geval er geen bijzondere bestanddelen aanwezig zijn wordt
-                                    de waarde <em>geen</em> vastgelegd.
-                                 </p>
-                                 
-                              </td>
-                           </tr>
                         </tbody>
                      </table>
                      
@@ -1005,6 +1012,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Bijzonder bestanddeel</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het procentuele aandeel in het volume, uitgedrukt in een klasse.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -1039,6 +1054,19 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Bijzonder bestanddeel</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De grootte van een deeltje uitgedrukt in een klasse.</p>
+                                 
+                                 <p>-Toelichting--
+                                    De grootte van bijzondere bestanddelen wordt vastgelegd, wanneer de deeltjes groter
+                                    zijn dan 2 mm.
+                                 </p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -1077,6 +1105,27 @@
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
                         </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>Een voorkomen in grond van willekeurig verspreid voorkomende concentraties van een
+                                 afwijkende grondsoort of soort gesteente.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>Hoe het voorkomen van brokjes moet worden geïnterpreteerd hangt af van de kwaliteit
+                                 van de beschreven monsters. In geroerde monsters zal het voorkomen van brokjes eerder
+                                 de expressie zijn van vermenging van lagen die in samenstelling van de grond verschillen.
+                              </p>
+                              
+                           </td>
+                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Brokje_soortbrokje"></a><section id="detail_attribute_Model_Brokje_soortbrokje">
                      <h4>  soort brokje</h4>
@@ -1093,10 +1142,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend
-                                    en niet bepalend is voor de geotechnische eigenschappen van de grond met, wanneer
-                                    relevant, aanduiding van de relatieve hoeveelheid ervan.
-                                 </p>
+                                 <p>Het soort grond of soort gesteente waaruit het brokje bestaat.</p>
                                  
                               </td>
                            </tr>
@@ -1120,20 +1166,6 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>Onder NEN-EN-ISO 14688 moeten bijzondere bestanddelen worden beschreven wanneer ze
-                                    belangrijk zijn voor het herleiden van de oorsprong van de grond of wanneer ze de
-                                    geotechnische eigenschappen van de grond kunnen beïnvloeden. Bijzondere bestanddelen
-                                    hebben gewoonlijk of een natuurlijke of een antropogene herkomst maar in enkele gevallen
-                                    is beide mogelijk. In het geval er geen bijzondere bestanddelen aanwezig zijn wordt
-                                    de waarde <em>geen</em> vastgelegd.
-                                 </p>
-                                 
-                              </td>
-                           </tr>
                         </tbody>
                      </table>
                      
@@ -1147,6 +1179,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Brokje</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het procentuele aandeel in het volume, uitgedrukt in een klasse.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -1183,12 +1223,20 @@
                               <td>Attribuut van Brokje</td>
                            </tr>
                            <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De grootte van een deeltje uitgedrukt in een klasse.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Juridische status</th>
                               <td>Authentiek</td>
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>0..1</td>
+                              <td>1</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -1219,6 +1267,14 @@
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
                         </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>De gegevens van de vlekken die een bepaalde kleur hebben.</p>
+                              
+                           </td>
+                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Vlek_kleur"></a><section id="detail_attribute_Model_Vlek_kleur">
                      <h4>  kleur</h4>
@@ -1230,6 +1286,14 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Vlek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De kleur van de vlekken.</p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -1264,6 +1328,16 @@
                            <tr>
                               <th>Type gegeven</th>
                               <td>Attribuut van Vlek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het deel van het oppervlak dat door de vlekken in beslag wordt genomen, uitgedrukt
+                                    in een klasse.
+                                 </p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -1843,7 +1917,13 @@
                   </tr>
                   <tr>
                      <td>wegverhardingsmateriaal</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven.
+                           Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.
+                        </p>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>
@@ -2619,7 +2699,11 @@
                <colgroup></colgroup>
                <tbody>
                   <tr>
-                     <td></td>
+                     <td>
+                        
+                        <p>De lijst voor de classificatie van de grootte van het deeltje.</p>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>
@@ -2862,7 +2946,7 @@
                      <td>
                         
                         <p>Donkergeel is gelijk aan de Munsellkleur 10Y 6/6 (dark greenish yellow) en 10YR 6/6,
-                           10YR 6/8 (brownish yellow). *
+                           10YR 6/8 (brownish yellow).
                         </p>
                         
                      </td>
@@ -3087,11 +3171,19 @@
                   </tr>
                   <tr>
                      <td>asbest</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: asbestresten al dan niet geassocieerd met stenig puin.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>asfalt</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: asfaltresten al dan niet geassocieerd met stenig puin.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>botresten</td>
@@ -3106,15 +3198,27 @@
                   </tr>
                   <tr>
                      <td>chemischOlie</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: sporen van olie die door de mens is bewerkt.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>chemischVerf</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: verfresten.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>chemischTeer</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: teerresten.</p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>donkereMineralen</td>
@@ -3149,7 +3253,13 @@
                   </tr>
                   <tr>
                      <td>glas</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: glas dat niet geassocieerd met huisvuil voorkomt, maar los
+                           of geassocieerd met stenig puin.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>glimmer</td>
@@ -3184,11 +3294,23 @@
                   </tr>
                   <tr>
                      <td>huisvuilMetPlastic</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: huishoudelijk afval dat plastic bevat en verder onder meer
+                           bestaat uit verpakkingsmateriaal, klein aardewerk, metaal, glas en eventueel etensresten.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>huisvuilZonderPlastic</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: huishoudelijk afval dat geen plastic bevat, maar bijvoorbeeld
+                           uit verpakkingsmateriaal, klein aardewerk, metaal, glas en eventueel etensresten bestaat.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>ijzerconcreties</td>
@@ -3238,7 +3360,13 @@
                   </tr>
                   <tr>
                      <td>metaal</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: metaal dat niet geassocieerd met huisvuil voorkomt, maar
+                           los of geassocieerd met stenig puin.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>ophoogmateriaalLichtKunststof</td>
@@ -3286,11 +3414,25 @@
                   </tr>
                   <tr>
                      <td>plastic</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: plastic afval dat niet geassocieerd met huisvuil voorkomt,
+                           maar los of geassocieerd met stenig puin, bijvoorbeeld resten landbouwplastic, industrieel
+                           plastic of plastic korrels.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>puinStenig</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: bouw- en sloopafval, een mengsel van louter stenige materialen
+                           die door de mens gemaakt of bewerkt zijn, waarin geen materialen als asbest, asfalt,
+                           glas, metaal of of plastic voorkomen.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>schelpmateriaal</td>
@@ -3312,7 +3454,13 @@
                   </tr>
                   <tr>
                      <td>verbrandingsresten</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: minerale verbrandingsresten met een diameter die varieert
+                           van kleiner dan 63 µm tot groter dan 2 mm.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <td>vuursteen</td>
@@ -3324,7 +3472,15 @@
                   </tr>
                   <tr>
                      <td>wegverhardingsmateriaal</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Antropogeen bestanddeel: materiaal dat in gebruik is als verharding van wegen en erven.
+                           Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. Hieronder valt
+                           ook halfverharding in de vorm van lavagruis, schelpengruis, en andere verharde opgebrachte
+                           grondmengsels.
+                        </p>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>
@@ -3456,70 +3612,6 @@
             </table>
             
          </section>
-         <section id="detail_class_Model_TypeIngreep">
-            <h3>  TypeIngreep</h3>
-            
-            <table style="width: 100%;" class="list">
-               <colgroup></colgroup>
-               <tbody>
-                  <tr>
-                     <td>
-                        
-                        <p>De lijst met de omschrijvingen van de wijze waarop een antropogene laag is ontstaan.</p>
-                        
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            <table style="width: 100%;" class="list">
-               <colgroup style="width: 50%;"></colgroup>
-               <colgroup></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Waarde</th>
-                     <th>Omschrijving</th>
-                  </tr>
-                  <tr>
-                     <td>gecontroleerdAangebracht</td>
-                     <td>
-                        
-                        <p>Opgebracht materiaal dat tot een bepaalde graad verdicht is (engineered fill).</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>geroerd</td>
-                     <td>
-                        
-                        <p>De natuurlijke samenhang van de grond is door ploegen of andere vormen van omwoelen
-                           verstoord.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>losGestort</td>
-                     <td>
-                        
-                        <p>Opgebracht materiaal dat los gestort is.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>nietBepaald</td>
-                     <td>
-                        
-                        <p>De wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen, kon niet
-                           worden bepaald.
-                        </p>
-                        
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <section id="detail_class_Model_Vlekkleur">
             <h3>  Vlekkleur</h3>
             
@@ -3631,9 +3723,7 @@
                   <tr>
                      <td>
                         
-                        <p>Er komt een spoor voor en dat betekent dat het aandeel in het volume minder dan 1
-                           procent is.
-                        </p>
+                        <p>De lijst met de classificatie van volumepercentages.</p>
                         
                      </td>
                   </tr>
