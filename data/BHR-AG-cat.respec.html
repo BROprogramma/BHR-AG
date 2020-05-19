@@ -50,15 +50,15 @@
    <section id="">
       <h2>Het domeinmodel   </h2>
       <div class="imageinfo overview"><img src="data/Images/EAID_2BEE77B3_B290_450f_B2C3_248D2CDF62D0.png" usemap="#imagemap-EAID_2BEE77B3_B290_450f_B2C3_248D2CDF62D0" alt="Diagram "><map name="imagemap-EAID_2BEE77B3_B290_450f_B2C3_248D2CDF62D0">
-            <area shape="rect" alt="Vlek" coords="412,853,673,915" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
-            <area shape="rect" alt="Brokje" coords="412,746,673,821" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
-            <area shape="rect" alt="Bijzonder bestanddeel" coords="412,639,673,714" href="#graph_EAID_3879AC64_BE06_4f16_8D2C_7A9036DEBFEA">
-            <area shape="rect" alt="Bijzonder materiaal" coords="412,490,673,539" href="#graph_EAID_1372ED4A_302E_492a_965B_49C68209085C">
-            <area shape="rect" alt="Niet beschreven interval" coords="412,183,673,258" href="#graph_EAID_5661F19B_4FF7_4bbf_BCE0_11489C377552">
-            <area shape="rect" alt="Grond" coords="10,639,320,818" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1">
-            <area shape="rect" alt="Laag" coords="10,425,320,526" href="#graph_EAID_20CDA08D_E15D_448d_BE07_575D49BAD77C">
-            <area shape="rect" alt="Boormonsterbeschrijving" coords="36,10,294,85" href="#graph_EAID_48398FD1_5301_4bf7_8A18_186683D55ECC">
-            <area shape="rect" alt="Boorprofiel" coords="10,185,320,325" href="#graph_EAID_E0BD3703_8FA5_483a_A6C2_8DF1B9DBE04C"></map><p><b>Domeinmodel toegepast geologisch booronderzoek - Boormonsterbeschrijving</b></p>
+            <area shape="rect" alt="Vlek" coords="323,836,584,898" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
+            <area shape="rect" alt="Brokje" coords="323,729,584,804" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
+            <area shape="rect" alt="Bijzonder bestanddeel" coords="323,622,584,697" href="#graph_EAID_3879AC64_BE06_4f16_8D2C_7A9036DEBFEA">
+            <area shape="rect" alt="Bijzonder materiaal" coords="323,473,584,522" href="#graph_EAID_1372ED4A_302E_492a_965B_49C68209085C">
+            <area shape="rect" alt="Niet beschreven interval" coords="323,166,584,241" href="#graph_EAID_5661F19B_4FF7_4bbf_BCE0_11489C377552">
+            <area shape="rect" alt="Grond" coords="-79,622,231,814" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1">
+            <area shape="rect" alt="Laag" coords="-79,408,231,509" href="#graph_EAID_20CDA08D_E15D_448d_BE07_575D49BAD77C">
+            <area shape="rect" alt="Boormonsterbeschrijving" coords="-53,-7,205,68" href="#graph_EAID_48398FD1_5301_4bf7_8A18_186683D55ECC">
+            <area shape="rect" alt="Boorprofiel" coords="-79,168,231,308" href="#graph_EAID_E0BD3703_8FA5_483a_A6C2_8DF1B9DBE04C"></map><p><b>Domeinmodel toegepast geologisch booronderzoek - Boormonsterbeschrijving</b></p>
       </div>
    </section>
    <section id="">
@@ -523,7 +523,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0..1</td>
+                     <td>1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -536,16 +536,6 @@
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
                      <td>Waardelijst uitbreidbaar</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>
-                        
-                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.<br clear="none">
-                           Het attribuut moet aanwezig zijn in alle andere gevallen.
-                        </p>
-                        
-                     </td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -676,8 +666,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.<br clear="none">
-                           De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -750,8 +739,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.<br clear="none">
-                           De waarde van het attribuut mag niet kleiner zijn dan de waarde van het attribuut
+                        <p>De waarde van het attribuut mag niet kleiner zijn dan de waarde van het attribuut
                            <em>gemiddeld hoogste grondwaterstand</em>.<br clear="none">
                            De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
@@ -1181,10 +1169,10 @@
       </section><a class="anchor" id="graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1"></a><a class="anchor" id="global_class_Model_Grond"></a><section id="global_class_Model_Grond">
          <h3>   Grond</h3>
          <div class="imageinfo "><img src="data/Images/EAID_F06BCD69_2A9A_4c9b_A602_A07B1622CFDD.png" usemap="#imagemap-EAID_F06BCD69_2A9A_4c9b_A602_A07B1622CFDD" alt="Diagram "><map name="imagemap-EAID_F06BCD69_2A9A_4c9b_A602_A07B1622CFDD">
-               <area shape="rect" alt="Vlek" coords="459,250,671,330" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
-               <area shape="rect" alt="Bijzonder bestanddeel" coords="459,10,668,90" href="#graph_EAID_3879AC64_BE06_4f16_8D2C_7A9036DEBFEA">
-               <area shape="rect" alt="Brokje" coords="459,130,662,210" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
-               <area shape="rect" alt="Grond" coords="10,10,332,189" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1"></map><p><b></b></p>
+               <area shape="rect" alt="Vlek" coords="422,218,634,298" href="#graph_EAID_5CBC68BC_887F_481b_919F_50E6DDBAA8C2">
+               <area shape="rect" alt="Bijzonder bestanddeel" coords="422,-22,631,58" href="#graph_EAID_3879AC64_BE06_4f16_8D2C_7A9036DEBFEA">
+               <area shape="rect" alt="Brokje" coords="422,98,625,178" href="#graph_EAID_D926F001_75F7_427d_9A13_9B67062086F4">
+               <area shape="rect" alt="Grond" coords="-27,-22,295,170" href="#graph_EAID_C8EE2C52_C5B2_420f_8A6B_5DC3D66481B1"></map><p><b></b></p>
          </div>
          <table style="width: 100%;">
             <colgroup style="width: 30%;"></colgroup>
@@ -1474,6 +1462,61 @@
                            Het aandeel organische stof wordt volgens NEN-EN-ISO 14688-1 bepaald op basis van
                            waarneembare en voelbare eigenschappen. Het organischestofgehalte wordt niet bepaald
                            als de grond is geclassificeerd als een organische grond.
+                        </p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" id="detail_attribute_Model_Grond_omzettingorganischestof"></a><section id="detail_attribute_Model_Grond_omzettingorganischestof">
+            <h4>  omzetting organische stof</h4>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Grond</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p>De mate waarin het oorspronkelijke organische materiaal is veranderd uitgedrukt in
+                           een klasse.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0..1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td><a class="link" href="#detail_class_Model_Organischestofgehalteklasse">Organischestofgehalteklasse</a></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p>Het hangt van de aard van de opdracht af of het gegeven is vastgelegd. De mate van
+                           omzetting van organische stof wordt alleen bepaald als de grond zwak of sterk organisch
+                           is.
                         </p>
                         
                      </td>
@@ -2408,9 +2451,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het niet beschreven interval.<br clear="none">
-                           De <em>einddiepte</em> van het onderste niet beschreven interval mag niet groter zijn dan de waarde van
-                           het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het niet beschreven interval. 
                         </p>
                         
                      </td>
@@ -2517,7 +2558,7 @@
                <td>begravenBodem</td>
                <td>
                   
-                  <p>Een bodem die na vorming begraven is geraakt door sedimentatie. </p>
+                  <p>Een bodem die na vorming bedekt is geraakt door sedimentatie of door de mens. </p>
                   
                </td>
             </tr>
@@ -2525,7 +2566,7 @@
                <td>begravenWaterbodem</td>
                <td>
                   
-                  <p>Een waterbodem die na vorming door de mens begraven is geraakt.</p>
+                  <p>Een waterbodem die na vorming door de mens bedekt is geraakt.</p>
                   
                </td>
             </tr>
@@ -2664,7 +2705,7 @@
                <td>marienLagunair</td>
                <td>
                   
-                  <p>Grond die in een waddenmilieu is afgezet.</p>
+                  <p>Grond die in een waddenmilieu of lagunemilieu is afgezet.</p>
                   
                </td>
             </tr>
@@ -2762,28 +2803,10 @@
                <th>Omschrijving</th>
             </tr>
             <tr>
-               <td>gesteente</td>
-               <td>
-                  
-                  <p>Het boorprofiel omvat alleen lagen die beschreven zijn als gesteente.</p>
-                  
-               </td>
-            </tr>
-            <tr>
                <td>grond</td>
                <td>
                   
                   <p>Het boorprofiel omvat alleen lagen die beschreven zijn als grond of bijzonder materiaal.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>grondGesteente</td>
-               <td>
-                  
-                  <p>Het boorprofiel omvat lagen die beschreven zijn als grond of bijzonder materiaal zowel
-                     als lagen die beschreven zijn als gesteente.
-                  </p>
                   
                </td>
             </tr>
@@ -2816,11 +2839,11 @@
                <th>Omschrijving</th>
             </tr>
             <tr>
-               <td>geohydrologieMechanisch</td>
+               <td>basisHand</td>
                <td>
                   
-                  <p>De lagen zijn beschreven volgens de eisen gesteld aan het geohydrologisch beschrijven
-                     van monsters uit mechanische boringen.
+                  <p>De lagen zijn beschreven volgens de eisen gesteld aan het beschrijven van monsters
+                     uit handboringen voor toegepast geologisch basis onderzoek.
                   </p>
                   
                </td>
@@ -2892,7 +2915,7 @@
             <tr>
                <td>
                   
-                  <p>De lijst met de procedures voor geohydrologische boormonsterbeschrijving.</p>
+                  <p>De lijst met de procedures voor toegepast geologische boormonsterbeschrijving.</p>
                   
                </td>
             </tr>
@@ -2916,31 +2939,6 @@
                      grondmonsters voor geotechniek gebaseerd op de ISO norm. De norm is vastgesteld in
                      september 2013 en is de vervanger voor de NEN 5104. De versie uit 2019 is een herziening.
                      In 2020 zijn correcties opgenomen.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>ISO14688d1v2019c2020enISO14689d1v2018</td>
-               <td>
-                  
-                  <p>NEN-EN-ISO 14688-1:2019+C:2020 <em>Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond –
-                        Deel1: Identificatie en beschrijving (incl. Nederlandse bijlage:2019)</em> beschrijft de procedure voor de beschrijving van grondmonsters voor geotechniek.
-                     Een internationale norm met een Nederlandse bijlage. In 2020 zijn correcties opgenomen.<br clear="none">
-                     NEN-EN-ISO 14689-1: 2018 <em>Geotechnisch onderzoek en beproeving - Identificatie en classificatie van gesteente
-                        - Deel 1: Identificatie en beschrijving</em> beschrijft de procedure voor de beschrijving van gesteentemonsters voor geotechniek.
-                     Een internationale norm geaccepteerd door Europa en Nederland.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>ISO14689d1v2018</td>
-               <td>
-                  
-                  <p>NEN-EN-ISO 14689-1: 2018 <em>Geotechnisch onderzoek en beproeving - Identificatie en classificatie van gesteente
-                        - Deel 1: Identificatie en beschrijving</em> beschrijft de procedure voor de beschrijving van gesteentemonsters voor geotechniek.
-                     Een internationale norm geaccepteerd door Europa en Nederland.
                   </p>
                   
                </td>
@@ -3710,21 +3708,64 @@
                </td>
             </tr>
             <tr>
-               <td>siltigZand</td>
+               <td>matigSiltigZand</td>
                <td>
                   
                   <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal
-                     dat zich gedraagt als silt.
+                     dat zich gedraagt als silt. Het fijne materiaal bestaat uit nauwelijks voelbaar silt.
                   </p>
                   
                </td>
             </tr>
             <tr>
-               <td>siltigZandMetGrind</td>
+               <td>matigSiltigZandMetGrind</td>
                <td>
                   
-                  <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat, en verder vooral uit
-                     fijn materiaal dat zich gedraagt als silt, en grind bevat.
+                  <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal
+                     dat zich gedraagt als silt, en grind bevat. Het fijne materiaal bestaat uit nauwelijks
+                     voelbaar silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>sterkSiltigZand</td>
+               <td>
+                  
+                  <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal
+                     dat zich gedraagt als silt. Het fijne materiaal bestaat uit goed voelbaar silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>sterkSiltigZandMetGrind</td>
+               <td>
+                  
+                  <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal
+                     dat zich gedraagt als silt, en grind bevat. Het fijne materiaal bestaat uit goed voelbaar
+                     silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>uiterstSiltigZand</td>
+               <td>
+                  
+                  <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal
+                     dat zich gedraagt als silt. Het fijne materiaal bestaat uit duidelijk voelbaar silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>uiterstSiltigZandMetGrind</td>
+               <td>
+                  
+                  <p>Grove minerale grond die voor meer dan 50 % uit zand bestaat en verder uit fijn materiaal
+                     dat zich gedraagt als silt, en grind bevat. Het fijne materiaal bestaat uit duidelijk
+                     voelbaar silt.
                   </p>
                   
                </td>
@@ -3828,31 +3869,21 @@
                </td>
             </tr>
             <tr>
-               <td>sterkZandigSiltMetGrind</td>
-               <td>
-                  
-                  <p>Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar
-                     zand en enkele grindkorrels bevat.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>klei</td>
-               <td>
-                  
-                  <p>Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal
-                     en geen zichtbaar of voelbaar zand bevat.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
                <td>kleiMetKeien</td>
                <td>
                   
                   <p>Fijne minerale grond die zich gedraagt als klei, keien bevat tot een maximum van 30%
                      en voor een niet nader bepaald deel uit ander zeer grof en grof materiaal bestaat.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>sterkZandigSiltMetGrind</td>
+               <td>
+                  
+                  <p>Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar
+                     zand en enkele grindkorrels bevat.
                   </p>
                   
                </td>
@@ -3888,6 +3919,39 @@
                </td>
             </tr>
             <tr>
+               <td>zwakSiltigeKlei</td>
+               <td>
+                  
+                  <p>Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal
+                     en geen zichtbaar of voelbaar zand bevat. Het fijne materiaal bevat geen voelbaar
+                     silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>matigSiltigeKlei</td>
+               <td>
+                  
+                  <p>Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal
+                     en geen zichtbaar of voelbaar zand bevat. Het fijne materiaal bestaat uit nauwelijks
+                     voelbaar silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>sterkSiltigeKlei</td>
+               <td>
+                  
+                  <p>Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal
+                     en geen zichtbaar of voelbaar zand bevat. Het fijne materiaal bestaat uit goed voelbaar
+                     silt.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
                <td>zwakZandigeKlei</td>
                <td>
                   
@@ -3903,6 +3967,26 @@
                   
                   <p>Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar
                      zand en enkele grindkorrels bevat.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>matigZandigeKlei</td>
+               <td>
+                  
+                  <p>Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en voelbaar zand en
+                     geen grind of grover materiaal bevat. 
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>matigZandigeKleiMetGrind</td>
+               <td>
+                  
+                  <p>Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en voelbaar zand en
+                     enkele grindkorrels bevat.
                   </p>
                   
                </td>
@@ -4730,6 +4814,62 @@
       </table>
       
    </section>
+   <section id="detail_class_Model_OmzettingOrganischestof">
+      <h2>  OmzettingOrganischestof</h2>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  <p>De lijst voor de classificatie van de mate waarin de oorspronkelijke organische stof
+                     is veranderd.
+                  </p>
+                  
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup style="width: 50%;"></colgroup>
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <th>Waarde</th>
+               <th>Omschrijving</th>
+            </tr>
+            <tr>
+               <td>nietOmgezet</td>
+               <td>
+                  
+                  <p>Geen zichtbare omzetting van organische stof. Plantenresten eenvoudig herkenbaar.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>gedeeltelijkOmgezet</td>
+               <td>
+                  
+                  <p>Een deel van de organische stof is omgezet. Een mengsel van herkenbare en niet herkenbare
+                     plantenresten.
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>volledigOmgezet</td>
+               <td>
+                  
+                  <p>Alle organische stof is omgezet en niet meer herkenbaar als resten van planten (amorf).</p>
+                  
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
    <section id="detail_class_Model_SoortBijzonderBestanddeel">
       <h2>  SoortBijzonderBestanddeel</h2>
       
@@ -5081,6 +5221,132 @@
       </table>
       
    </section>
+   <section id="detail_class_Model_SoortBrokje">
+      <h2>  SoortBrokje</h2>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  <p>De lijst met de grondsoorten en soorten gesteente die in willekeurig verspreide concentraties
+                     in grond of gesteente voorkomen.
+                  </p>
+                  
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup style="width: 50%;"></colgroup>
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <th>Waarde</th>
+               <th>Omschrijving</th>
+            </tr>
+            <tr>
+               <td>dolomietbrokjes</td>
+               <td>
+                  
+                  <p>Dolomietbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>gipsbrokjes</td>
+               <td>
+                  
+                  <p>Gipsbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>kalksteenbrokjes</td>
+               <td>
+                  
+                  <p>Kalksteenbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>keitjes</td>
+               <td>
+                  
+                  <p>Er komen keitjes voor.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>kleibrokjes</td>
+               <td>
+                  
+                  <p>Kleibrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>kleisteenbrokjes</td>
+               <td>
+                  
+                  <p>Kleisteenbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>siltbrokjes</td>
+               <td>
+                  
+                  <p>Siltbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>siltsteenbrokjes</td>
+               <td>
+                  
+                  <p>Siltsteenbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>steenkoolbrokjes</td>
+               <td>
+                  
+                  <p>Steenkoolbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>steenzoutbrokjes</td>
+               <td>
+                  
+                  <p>Steenzoutbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>veenbrokjes</td>
+               <td>
+                  
+                  <p>Veenbrokjes.</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>zandsteenbrokjes</td>
+               <td>
+                  
+                  <p>Zandsteenbrokjes.</p>
+                  
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
    <section id="detail_class_Model_SoortVeen">
       <h2>  SoortVeen</h2>
       
@@ -5290,132 +5556,6 @@
       </table>
       
    </section>
-   <section id="detail_class_Model_SoortBrokje">
-      <h2>  SoortBrokje</h2>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <td>
-                  
-                  <p>De lijst met de grondsoorten en soorten gesteente die in willekeurig verspreide concentraties
-                     in grond of gesteente voorkomen.
-                  </p>
-                  
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup style="width: 50%;"></colgroup>
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <th>Waarde</th>
-               <th>Omschrijving</th>
-            </tr>
-            <tr>
-               <td>dolomietbrokjes</td>
-               <td>
-                  
-                  <p>Dolomietbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>gipsbrokjes</td>
-               <td>
-                  
-                  <p>Gipsbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>kalksteenbrokjes</td>
-               <td>
-                  
-                  <p>Kalksteenbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>keitjes</td>
-               <td>
-                  
-                  <p>Er komen keitjes voor.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>kleibrokjes</td>
-               <td>
-                  
-                  <p>Kleibrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>kleisteenbrokjes</td>
-               <td>
-                  
-                  <p>Kleisteenbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>siltbrokjes</td>
-               <td>
-                  
-                  <p>Siltbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>siltsteenbrokjes</td>
-               <td>
-                  
-                  <p>Siltsteenbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>steenkoolbrokjes</td>
-               <td>
-                  
-                  <p>Steenkoolbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>steenzoutbrokjes</td>
-               <td>
-                  
-                  <p>Steenzoutbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>veenbrokjes</td>
-               <td>
-                  
-                  <p>Veenbrokjes.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>zandsteenbrokjes</td>
-               <td>
-                  
-                  <p>Zandsteenbrokjes.</p>
-                  
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      
-   </section>
    <section id="detail_class_Model_Vlekkleur">
       <h2>  Vlekkleur</h2>
       
@@ -5492,7 +5632,7 @@
                <td>grijs</td>
                <td>
                   
-                  <p>De vlekken zijn grijsblauw tot zwart. (aanduiding laklaag, omschrijving volgt)</p>
+                  <p>De vlekken zijn grijs. Grijze vlekken wijzen op reducerende omstandigheden.</p>
                   
                </td>
             </tr>
@@ -5500,7 +5640,10 @@
                <td>grijsBlauwTotZwart</td>
                <td>
                   
-                  <p>De vlekken zijn grijs. Grijze vlekken wijzen op reducerende omstandigheden.</p>
+                  <p>De vlekken zijn grijsblauw tot zwart. Grijsblauw tot zwarte vlekken in kleiige afzettingen
+                     wijzen op concentraties organische stof (verstikte/anoxisch vergane plantenresten,
+                     humus, zeer fijne verkoolde plantenresten) die oude bodemniveaus aangeven.
+                  </p>
                   
                </td>
             </tr>
