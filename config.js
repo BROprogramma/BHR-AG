@@ -16,7 +16,7 @@ var respecConfig = {
   ],
   shortName: "bhr-ag",
   pubDomain: "bro",
-  github: "https://github.com/BROprogramma/BHR-G",
+  github: "https://github.com/BROprogramma/BHR-AG",
   //previousPublishDate: "2019-03-25",
   //previousStatus: "GN-CV",
   //localBiblio: {
