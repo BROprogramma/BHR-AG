@@ -1,19 +1,36 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
+  subtitle: "Toegepast geologische boormonsterbeschrijving",
   //canonicalURI: "WV",
   //publishDate: "2019-03-25",
   maxTocLevel: 4,
+  logos: [
+  {src: 'https://docs.geostandaarden.nl/bro/gen/logo_bro.png',
+    href: "http://basisregistratieondergrond.nl",
+    alt: "Basisregistratie Ondergrond",
+    width: 252,
+    height: 130,
+    id: 'BRO'},
+  {
+    src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
+    alt: "Ministerie BZK",
+    width: 229,
+    height: 130,
+    id: 'BZK',
+  }]  ,	
   editors: [
-    {
-      name: "TNO Geologische Dienst Nederland",
-      url: "https://www.tno.nl/nl/",
-    },
     {
       name: "Geonovum",
       url: "https://www.geonovum.nl", 
     },  
   ],
+  authors: [
+    {
+      name: "Geonovum",
+	  url: "https://www.geonovum.nl",
+	}],
   shortName: "bhr-ag",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-AG",
