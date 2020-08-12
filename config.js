@@ -5,8 +5,7 @@ var respecConfig = {
   //canonicalURI: "WV",
   //publishDate: "2019-03-25",
   maxTocLevel: 4,
-  logos: [
-{
+  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
