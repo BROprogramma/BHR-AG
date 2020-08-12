@@ -6,13 +6,7 @@ var respecConfig = {
   //publishDate: "2019-03-25",
   maxTocLevel: 4,
   logos: [
-  {src: 'https://docs.geostandaarden.nl/bro/gen/logo_bro.png',
-    href: "http://basisregistratieondergrond.nl",
-    alt: "Basisregistratie Ondergrond",
-    width: 252,
-    height: 130,
-    id: 'BRO'},
-  {
+   {
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
