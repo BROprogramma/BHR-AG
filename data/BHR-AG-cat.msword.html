@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Toegepast geologisch booronderzoek (BHR-AG) conceptueel/20200910</p>
       <p>Imvertor: 1.61.2</p>
-      <p>Model release: Conceptualmodel-ToegepastgeologischbooronderzoekBHR-AGconceptueel-0.1-1-20200910-20200914-221722</p>
+      <p>Model release: Conceptualmodel-ToegepastgeologischbooronderzoekBHR-AGconceptueel-0.1-1-20200910-20200915-004824</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -7156,9 +7156,8 @@
                               <td>
                                  
                                  <p>De <em>ondergrens</em> moet groter zijn dan de <em>bovengrens</em> van de laag.<br clear="none">
-                                    Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologieMechanisch</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet kleiner zijn dan <em>0</em>.<em>02</em> meter.<br clear="none">
+                                    Het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag mag niet kleiner zijn dan <em>0</em>.<em>02</em> meter.<br clear="none">
                                     Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologieMechanisch</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet groter zijn dan <em>1</em> meter.<br clear="none">
-                                    Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet kleiner zijn dan <em>0</em>.<em>05</em> meter.<br clear="none">
                                     Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet groter zijn dan <em>0</em>.<em>5</em> meter. </p>
                                  </td>
                            </tr>
@@ -7170,9 +7169,9 @@
                                     minimaal 2 cm en maximaal 1 m dik is, met als uitzondering het geval waarin de monsters
                                     zijn genomen met de bemonsteringsmethoden <em>opAfstandDroog</em>, <em>opAfstandNat</em>, <em>opAfstandNatBinnendoor</em>, <em>opAfstandNatBuitenlangs</em> en <em>opDiepteGrijpen</em>, want dan is een laag minimaal 10 cm dik. Dit betekent dat er minimaal iedere meter
                                     van het bemonsterde traject een waarneming is gedaan.<br clear="none">
-                                    Bij het beschrijven van monsters uit handboringen is een laag in het boorprofiel minimaal
-                                    5 cm en maximaal 0,5 meter dik. Dit betekent dat bij handboringen iedere halve meter
-                                    van het bemosnterde traject een waarneming is gedaan.</p>
+                                    Bij het beschrijven van monsters uit handboringen wordt iedere halve meter van het
+                                    bemonsterde traject een waarneming gedaan en is een laag in het boorprofiel maximaal
+                                    0,5 meter dik. De minimale dikte is 5 cm voor monsters uit handboringen.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -7309,7 +7308,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em> en de waarde van het attribuut <em>antropogeen</em> gelijk is aan <em>ja</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>antropogeen</em> gelijk is aan <em>ja</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>antropogeen</em> niet gelijk is aan <em>ja</em>. </p>
                                  </td>
                            </tr>
@@ -7319,13 +7318,8 @@
                                  
                                  <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van monsters uit handboringen.<br clear="none">
                                     Menselijk ingrijpen leidt tot veranderingen van de eigenschappen van de ondergrond.
-                                    </p>
-                                 
-                                 <p>AANPASSEN: Vanuit geotechnisch perspectief is het van belang het menselijk ingrijpen
-                                    te typeren om ten minste een globaal beeld te geven van de aard van de verandering.
-                                    Zo zal los gestort zand een lagere dichtheid hebben dan zand dat van nature aanwezig
-                                    is, terwijl zand dat in lagen verdicht onder een snelweg is aangebracht juist een
-                                    hogere dichtheid heeft. </p>
+                                    Het gegeven typeert het menselijk ingrijpen om ten minste een globaal beeld te geven
+                                    van de aard van de verandering.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -7592,6 +7586,17 @@
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                                  </td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven wordt altijd vastgelegd bij de beschrijving van monsters uit handboringen.<br clear="none">
+                                    Bij de beschrijving van grond onder de NEN-EN-ISO 14688 wordt voor het aandeel zand
+                                    in zandige klei een indeling in zwak zandig en sterk zandig gemaakt. Binnen toegepast
+                                    geologisch booronderzoek wordt het aandeel zand nauwkeuriger ingedeeld en wordt een
+                                    indeling in zwak, matig en sterk zandig gemaakt. </p>
+                                 </td>
+                           </tr>
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Grond_kleur"></a><section id="detail_attribute_Model_Grond_kleur">
@@ -7641,7 +7646,10 @@
                                     de door verschillende personen en bij verschillende lichtsterkte uitgevoerde beschrijvingen
                                     te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik
                                     van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell
-                                    kleurenkaarten voor grond en gesteente opgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>. </p>
+                                    kleurenkaarten voor grond en gesteente opgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>.<br clear="none">
+                                    Bij de beschrijving van grond onder de NEN-EN-ISO 14688 wordt voor de kleur een indeling
+                                    in hoofdkleur gemaakt. Binnen toegepast geologisch booronderzoek wordt de kleur nauwkeuriger
+                                    ingedeeld en wordt een indeling in hoofdkleur met tweede kleur gemaakt. </p>
                                  </td>
                            </tr>
                         </tbody>
@@ -10023,8 +10031,7 @@
                      <td>
                         
                         <p>De onderste holocene veenlaag liggend op pleistocene afzettingen. Door compactie als
-                           gevolg van bedekking met sediment meestal steviger dan bovenliggende veenlagen, zoals
-                           van het Hollandveen Laagpakket.</p>
+                           gevolg van bedekking met sediment meestal steviger dan bovenliggende veenlagen.</p>
                         </td>
                   </tr>
                   <tr>
@@ -10032,7 +10039,7 @@
                      <td>
                         
                         <p>De onderste holocene veenlaag liggend op pleistocene afzettingen. Niet op grond van
-                           consistentie te onderscheiden van het Hollandveen laagpakket.</p>
+                           consistentie te onderscheiden van bovenliggende veenlagen.</p>
                         </td>
                   </tr>
                   <tr>
@@ -10055,28 +10062,30 @@
                         
                         <p>Meestal fijn, uniform, afgerond zand, door de wind over grote gebieden afgezet in
                            de ijstijden. In Oost- en Zuid Nederland aan de oppervlakte, elders scherpe bovengrens
-                           met holocene veen- of kleilagen. Formatie van Boxtel, Laagpakket van Wierden.</p>
+                           met holocene veen- of kleilagen.</p>
                         </td>
                   </tr>
                   <tr>
                      <td>duinKust</td>
                      <td>
                         
-                        <p>Fijn, uniform zand in oppervlakkige en begraven stuifzandruggen langs de kust.</p>
+                        <p>Fijn, uniform zand in oppervlakkige en begraven zandruggen in de vorm van duinen langs
+                           de kust.</p>
                         </td>
                   </tr>
                   <tr>
                      <td>duinRivier</td>
                      <td>
                         
-                        <p>Stuifzand in de vorm van duinen langs/naast de rivieren.</p>
+                        <p>Matig grof, uniform zand in oppervlakkige en begraven zandruggen in de vorm van duinen
+                           langs de rivieren.</p>
                         </td>
                   </tr>
                   <tr>
                      <td>fluviatielBeek</td>
                      <td>
                         
-                        <p>Siltige of kleiige afzetting van met slibrijk water overstroomde rivier- en beekdalen.</p>
+                        <p>Siltige of kleiige afzetting van met slibrijk water overstroomde beekdalen.</p>
                         </td>
                   </tr>
                   <tr>
@@ -10091,8 +10100,8 @@
                      <td>
                         
                         <p>Sterk zandige tot uiterst siltige vaste veelal grijze klei met grove tot zeer grove
-                           secundaire fractie, grondmorene gevormd onder de ijskap van de voorlaatste ijstijd
-                           (Saalien). Formatie van Drente, Laagpakket van Gieten.</p>
+                           secundaire fractie, als grondmorene gevormd onder de ijskap van de voorlaatste ijstijd
+                           (Saalien).</p>
                         </td>
                   </tr>
                   <tr>
@@ -10117,11 +10126,9 @@
                         
                         <p>Zwak tot matig siltig of zandige, stevig tot (zeer) harde, veelal kalkrijke en glimmerhoudende,
                            licht- tot donkergrijze, of donkerbruine tot zwarte, nabij het maaiveld door oxidatie
-                           soms rode klei. Formatie van Peelo, Laagpakket van Nieuwolda. Sedimenten die afgezet
-                           zijn in diepe sub-glaciale smeltwatergeulen, direct na het afsmelten van het Elsterien
-                           landijs. Hoge tot zeer hoge lutum percentages zijn kenmerkend, in enkele gevallen
-                           oplopend tot 60 %. Kenmerkend voor de Formatie van Peelo is de sterke wisseling in
-                           dikte over korte afstanden. Klei soms gelamineerd in warven.</p>
+                           soms rode klei. Sedimenten die afgezet zijn in diepe sub-glaciale smeltwatergeulen,
+                           direct na het afsmelten van het Elsterien landijs. Hoge tot zeer hoge lutum percentages
+                           zijn kenmerkend, in enkele gevallen oplopend tot 60 %. Klei soms gelamineerd in warven.</p>
                         </td>
                   </tr>
                   <tr>
@@ -10129,9 +10136,8 @@
                      <td>
                         
                         <p>Zeer regelmatig gelamineerde opeenvolging ontstaan door seizoensinvloed op afzetting
-                           in glaciaal meer, bijvoorbeeld potklei en glaciale klei in Bekken van Amsterdam (Laag
-                           van Oosterdok, Formatie van Drente). Warven tonen een afwisseling in zomerlagen (licht)
-                           en winterlagen (donker).</p>
+                           in glaciaal meer, bijvoorbeeld potklei en glaciale klei in Bekken van Amsterdam. Warven
+                           tonen een afwisseling in zomerlagen (licht) en winterlagen (donker).</p>
                         </td>
                   </tr>
                   <tr>
@@ -10146,8 +10152,7 @@
                      <td>kwelderklei</td>
                      <td>
                         
-                        <p>Klei die op een kwelder is afgezet. De klei wordt gekenmerkt door een hoog gehalte
-                           aan kleimineralen; degelijke kleien worden vaak aangeduid als knikklei of knipklei.</p>
+                        <p>Klei die op een kwelder is afgezet, vaak aangeduid als knikklei of knipklei.</p>
                         </td>
                   </tr>
                   <tr>
@@ -10155,9 +10160,8 @@
                      <td>
                         
                         <p>Grond die door de wind is afgezet en in het algemeen voor meer dan 75 % bestaat uit
-                           kwartskorrels met een korrelgrootte tussen 2 en 63 µm (Formatie van Boxtel, Laagpakket
-                           van Schimmert). Komt vooral voor in Zuid-Limburg en ligt vaak rechtstreeks op grindlagen
-                           die door de Maas zijn afgezet.</p>
+                           kwartskorrels met een korrelgrootte tussen 2 en 63 µm. Komt vooral voor in Zuid-Limburg
+                           en ligt vaak rechtstreeks op grindlagen die door de Maas zijn afgezet.</p>
                         </td>
                   </tr>
                   <tr>
@@ -10572,13 +10576,6 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>geen</td>
-                     <td>
-                        
-                        <p>Er is geen bemonsteringsprocedure van toepassing.</p>
-                        </td>
-                  </tr>
-                  <tr>
                      <td>ISO22475d1v2006</td>
                      <td>
                         
@@ -10762,7 +10759,7 @@
                      <td>ISO14688d1v2019c2020plus</td>
                      <td>
                         
-                        <p>De procedure voor het beschrijven van grondmonsters conformeert zicht aan de NEN-EN-ISO
+                        <p>De procedure voor het beschrijven van grondmonsters conformeert zich aan de NEN-EN-ISO
                            14688-1:2019+C:2020 <em>Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond –
                               Deel1: Identificatie en beschrijving (incl. Nederlandse bijlage:2019)</em>, en is op onderdelen specifieker gemaakt voor basis booronderzoek.</p>
                         </td>
@@ -12917,6 +12914,44 @@
                         </td>
                   </tr>
                   <tr>
+                     <td>ecohydrologischeVerkenning</td>
+                     <td>
+                        
+                        <p>Onderzoek met als hoofddoel de ecohydrologische eigenschappen van de ondergrond te
+                           bepalen ten behoeve van</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>gebiedsinrichting</td>
+                     <td>
+                        
+                        <p>Onderzoek in verband met de herinrichting van een gebied (o.a. landinrichting).</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>gebiedsmodel</td>
+                     <td>
+                        
+                        <p>Onderzoek uitgevoerd voor het maken van een model van de (hydro)geologische opbouw
+                           van de ondergrond van een bepaald gebied ten behoeve van</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>geleidbaarheidsOnderzoek</td>
+                     <td>
+                        
+                        <p>Onderzoek met als doel de geleidbaarheid van de ondergrond te bepalen.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>gevoeligheidsOnderzoek</td>
+                     <td>
+                        
+                        <p>Onderzoek met als doel de aardbevingsgevoeligheid, trillingsgevoeligheid of erosiegevoeligheid
+                           van de ondergrond te bepalen.</p>
+                        </td>
+                  </tr>
+                  <tr>
                      <td>grondwaterputMonitoring</td>
                      <td>
                         
@@ -12936,8 +12971,15 @@
                      <td>
                         
                         <p>Onderzoek met als hoofddoel de geohydrologische eigenschappen van de ondergrond te
-                           bepalen ten behoeve van bronbemaling, grondwateronttrekking, waterinfiltratie, de
-                           potentie voor warmte-koudeopslag of peilbeheer.</p>
+                           bepalen ten behoeve van ...</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>locatieModel</td>
+                     <td>
+                        
+                        <p>Onderzoek uitgevoerd voor het bepalen van de (hydro)geologische opbouw van de ondergrond
+                           op een bepaalde locatie en ten behoeve van</p>
                         </td>
                   </tr>
                </tbody>
@@ -12971,15 +13013,6 @@
                      <td>
                         
                         <p>Er is geen kaderstellende procedure van toepassing.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <td>SIKB11001v3.0</td>
-                     <td>
-                        
-                        <p>SIKB Protocol 11001 <em>Ontwerp, realisatie, beheer en onderhoud ondergronds deel van bodemenergiesystemen</em>.<br clear="none">
-                           Versie 3.0 en opvolgende versies die geen relevante wijzigingen voor (de gegevens
-                           van) het booronderzoek bevatten.</p>
                         </td>
                   </tr>
                </tbody>
@@ -14065,32 +14098,10 @@
                         </td>
                   </tr>
                   <tr>
-                     <td>landduin</td>
-                     <td>
-                        
-                        <p>Natuurlijk of half natuurlijk landschapselement. Duinvorm in hoger gelegen zandgebieden,
-                           veelal ontstaan door ontbossing en overbegrazing.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <td>meer</td>
-                     <td>
-                        
-                        <p>Natuurlijk of menselijk landschapselement. Door land omringde watervlakte.</p>
-                        </td>
-                  </tr>
-                  <tr>
                      <td>laagteNietPannig</td>
                      <td>
                         
                         <p>Menselijk landschapselement. Het tegenovergestelde van laagtePannig. </p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <td>oeverwal</td>
-                     <td>
-                        
-                        <p>Natuurlijk landschapselement. Een langgerekte hoogte langs een (voormalige) rivier.</p>
                         </td>
                   </tr>
                   <tr>
@@ -14102,10 +14113,25 @@
                         </td>
                   </tr>
                   <tr>
+                     <td>landduin</td>
+                     <td>
+                        
+                        <p>Natuurlijk of half natuurlijk landschapselement. Duinvorm in hoger gelegen zandgebieden,
+                           veelal ontstaan door ontbossing en overbegrazing.</p>
+                        </td>
+                  </tr>
+                  <tr>
                      <td>oudeBewoningsplaats</td>
                      <td>
                         
                         <p>Menselijk landschapselement. Plaats waar vroegere bewoning heeft plaatsgevonden.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>meer</td>
+                     <td>
+                        
+                        <p>Natuurlijk of menselijk landschapselement. Door land omringde watervlakte.</p>
                         </td>
                   </tr>
                   <tr>
@@ -14115,6 +14141,13 @@
                         <p>Natuurlijk landschapselement. Cirkel- tot ovaalvormige depressies, omgeven door een
                            vrijwel gesloten walletje. Ontstaan onder arctische omstandigheden, onder invloed
                            van bodemijs.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>oeverwal</td>
+                     <td>
+                        
+                        <p>Natuurlijk landschapselement. Een langgerekte hoogte langs een (voormalige) rivier.</p>
                         </td>
                   </tr>
                   <tr>
@@ -16756,13 +16789,17 @@
                   </tr>
                   <tr>
                      <td>historischGegroeid</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Materiaal dat in de loop der tijd is opgebracht, een oude bewoningsplaats.</p>
+                        </td>
                   </tr>
                   <tr>
                      <td>losGestort</td>
                      <td>
                         
-                        <p>Opgebracht materiaal dat los gestort is.</p>
+                        <p>Opgebracht materiaal dat los gestort is. Deze waarde kan ook gelden voor een gedempte
+                           sloot.</p>
                         </td>
                   </tr>
                   <tr>
