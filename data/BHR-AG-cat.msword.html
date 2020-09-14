@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Toegepast geologisch booronderzoek (BHR-AG) conceptueel/20200910</p>
       <p>Imvertor: 1.61.2</p>
-      <p>Model release: Conceptualmodel-ToegepastgeologischbooronderzoekBHR-AGconceptueel-0.1-1-20200910-20200914-165009</p>
+      <p>Model release: Conceptualmodel-ToegepastgeologischbooronderzoekBHR-AGconceptueel-0.1-1-20200910-20200914-221722</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -54,8 +54,8 @@
                               uitzondering van onderzoek dat onder het regime van de Mijnbouwwet valt en onderzoek
                               dat met het oog op de beoordeling van de bodemmilieukwaliteit of vanuit de archeologie
                               wordt uitgevoerd. Ieder object heeft ter identificatie een eigen BRO-ID.<br clear="none">
-                              De huidige gegevensdefinitie beschrijft alleen het geologisch booronderzoek onder
-                              IMBRO en beperkt zich verder tot de boormonsterbeschrijving.</p>
+                              De huidige gegevensdefinitie beschrijft alleen het toegepast geologisch booronderzoek
+                              onder IMBRO en beperkt zich verder tot de boormonsterbeschrijving.</p>
                            </td>
                      </tr>
                   </tbody>
@@ -4305,8 +4305,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
-                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>nee</em>.</p>
                               </td>
                         </tr>
                         <tr>
@@ -6434,7 +6433,10 @@
                                     in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
                                     voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
                                     van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied en voor
-                                    grond gelden andere afspraken dan voor gesteente.</p>
+                                    grond gelden andere afspraken dan voor gesteente.<br clear="none">
+                                    De boormonsterbeschrijving van toegepast geologisch booronderzoek is gebaseerd op
+                                    de identificatie van grond volgens NEN-EN-ISO 14688, en op onderdelen specifieker
+                                    gemaakt. De beschrijving van gesteente is conform NEN-EN-ISO 14689.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -6518,9 +6520,9 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Het resultaat van de boormonsterbeschrijving omvat in de toegepaste geologie altijd
-                                 een boorprofiel omdat de monsters, ongeacht de kwaliteit ervan, altijd in dezelfde
-                                 mate van detail worden beschreven.</p>
+                              <p>Het resultaat van de boormonsterbeschrijving omvat in toegepaste geologie altijd een
+                                 boorprofiel omdat de monsters, ongeacht de kwaliteit ervan, altijd in dezelfde mate
+                                 van detail worden beschreven.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -6567,8 +6569,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven geeft aan of de beschrijving is gemaakt voor monsters uit mechanische
-                                    boringen of voor monsters uit handboringen. </p>
+                                 <p>Het gegeven geeft aan of de beschrijving is gemaakt vanuit het geohydrologisch perspectief
+                                    op basis van monsters uit mechanische boringen of vanuit een generiek perspectief
+                                    op basis van monsters uit handboringen.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -6617,11 +6620,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het is in de toegepaste geologie goede praktijk het gehele doorboorde traject te bemonsteren
-                                    en de monsters op een vergelijkbare manier te beschrijven. In de praktijk kan het
-                                    voorkomen dat bepaalde intervallen niet beschreven worden. Bij continue bemonstering
+                                 <p>Binnen toegepaste geologie is het goede praktijk het gehele doorboorde traject te
+                                    bemonsteren en de monsters op een vergelijkbare manier te beschrijven. In de praktijk
+                                    kan het voorkomen dat bepaalde intervallen niet beschreven worden. Bij continue bemonstering
                                     is het boorprofiel in dat geval een aaneensluitende opvolging van lagen en niet-beschreven
-                                    intervallen. </p>
+                                    intervallen.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -6992,7 +6995,7 @@
                               
                               <p>De ondergrond wordt beschouwd als opgebouwd uit lagen en dat zijn homogene eenheden
                                  die zich vooral in horizontale richting uitstrekken en in verticale richting duidelijk
-                                 begrensd zijn. Een laag bestaat uit grond of uit bijzonder materiaal.<br clear="none">
+                                 begrensd zijn. Een laag bestaat uit grond, gesteente of uit bijzonder materiaal.<br clear="none">
                                  Een laag in een boorprofiel is een laag waarvan de grenzen in de monsters bepaald
                                  of uit het boorgedrag afgeleid zijn of waarvan de grenzen kunstmatig zijn bepaald.<br clear="none">
                                  Onder NEN-EN-ISO 14688-1 kan de begrenzing voortkomen uit de methodiek omdat lagen
@@ -7155,8 +7158,8 @@
                                  <p>De <em>ondergrens</em> moet groter zijn dan de <em>bovengrens</em> van de laag.<br clear="none">
                                     Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologieMechanisch</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet kleiner zijn dan <em>0</em>.<em>02</em> meter.<br clear="none">
                                     Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologieMechanisch</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet groter zijn dan <em>1</em> meter.<br clear="none">
-                                    Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet kleiner zijn dan <em>0</em>.<em>05</em> meter.<br clear="none">
-                                    Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet groter zijn dan <em>0</em>.<em>5</em> meter. </p>
+                                    Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet kleiner zijn dan <em>0</em>.<em>05</em> meter.<br clear="none">
+                                    Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> mag het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag niet groter zijn dan <em>0</em>.<em>5</em> meter. </p>
                                  </td>
                            </tr>
                            <tr>
@@ -7520,8 +7523,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>basisHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>siltigeKlei</em>.<br clear="none">
-                                    Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>geohydrologischMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>siltigeKlei</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>Klei</em>.<br clear="none">
+                                    Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>geohydrologischMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>Klei</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                                  </td>
                            </tr>
@@ -7529,13 +7532,15 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het aandeel silt wordt volgens NEN-EN-ISO 14688-1 niet nader bepaald. </p>
-                                 
-                                 <p>Bij de beschrijvng van monstners uit handboringen. </p>
-                                 
-                                 <p>bepaald op basis van waarneembare en voelbare eigenschappen. De organischestofgehalteklasse
-                                    wordt niet bepaald als de grond is geclassificeerd als organische grond en de primaire
-                                    fractie uit veen, humus, detritus, bruinkool of gyttja bestaat.</p>
+                                 <p>Het gegeven wordt altijd vastgelegd bij de beschrijving van monsters uit handboringen.<br clear="none">
+                                    Bij de beschrijving van grond onder de NEN-EN-ISO 14688 wordt de keuze tussen silt
+                                    en klei gemaakt op basis van gedrag, zowel bij de primaire fractie als bij de secundaire
+                                    fractie. Een nadere specificering van het aandeel silt op basis van alleen zintuigelijke
+                                    waarneming is geen onderdeel van NEN-EN-ISO 14688-1. De samenstelling van grond wordt
+                                    nauwkeurig bepaald door het monster in het laboratorium te onderzoeken (boormonsteranalyse).<br clear="none">
+                                    Binnen toegepast geologisch booronderzoek wordt het aandeel silt op basis van zintuigelijke
+                                    waarneming bepaald als de grond is geclassificeerd als fijne minerale grond of zand
+                                    en de secundaire fractie uit silt bestaat.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -7582,7 +7587,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>basisHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>zwakZandigeKlei</em> of <em>sterkZandigeKlei</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>zwakZandigeKlei</em> of <em>sterkZandigeKlei</em>.<br clear="none">
                                     Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>geohydrologischMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>zwakZandigeKlei</em> of <em>sterkZandigeKlei</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                                  </td>
@@ -7683,7 +7688,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                                  </td>
                            </tr>
@@ -7735,6 +7740,15 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort</em>
+                                    <em>ISO</em>
+                                    <em>14688</em> een waarde uit de categorie zeer grove grond is.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Toelichting</th>
@@ -7973,8 +7987,9 @@
                                     zijn de zandmediaan(klasse) te schatten nadat het monster gedroogd is. Dit levert
                                     een meer betrouwbare schatting en gebeurt bijvoorbeeld voor diepten waarop filters
                                     zouden kunnen worden geplaatst.<br clear="none">
-                                    Bij de beschrijving van monsters uit handboringen wordt het monster niet gedroogd
-                                    en is de waarde van het gegeven altijd gelijk aan <em>nee</em>.<br clear="none">
+                                    Bij de beschrijving van monsters uit handboringen vanuit een generiek perspectief
+                                    wordt het monster niet gedroogd en is de waarde van het gegeven altijd gelijk aan
+                                    <em>nee</em>.<br clear="none">
                                     De zandmediaan(klasse) wordt bepaald wanneer de primaire fractie zand is.</p>
                                  </td>
                            </tr>
@@ -8031,9 +8046,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De zandmediaan wordt bepaald wanneer de primaire fractie zand is. Tenminste wordt
-                                    een indeling van grof, middelgrof of fijn gemaakt, bij voorkeur worden de klassen
-                                    middelgrof en fijn nauwkeuriger ingedeeld.</p>
+                                 <p>De zandmediaanklasse wordt bepaald wanneer de primaire fractie zand is.<br clear="none">
+                                    Bij de beschrijving van monsters vanuit geohydrologisch perspectief wordt de zandmediaan
+                                    altijd nauwkeurig ingedeeld. Bij de beschrijving van monsters vanuit een generiek
+                                    perspectief wordt tenminste een indeling van grof, middelgrof of fijn gemaakt, bij
+                                    voorkeur worden de klassen middelgrof en fijn nauwkeuriger ingedeeld.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -8086,8 +8103,17 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologischMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.<br clear="none">
-                                    Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.<br clear="none">
+                                    Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De zandmediaan wordt geschat wanneer de primaire fractie zand is.<br clear="none">
+                                    Bij de beschrijving van monsters vanuit geohydrologisch perspectief wordt de zandmediaan
+                                    altijd geschat. </p>
                                  </td>
                            </tr>
                         </tbody>
@@ -8135,8 +8161,16 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologieMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> een waarde uit de categorie fijne grond is.<br clear="none">
-                                    Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> een waarde uit de categorie fijne grond is.<br clear="none">
+                                    Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> een waarde uit de categorie fijne grond is.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De consistentie van de fijne grond wordt bij de beschrijving van monsters vanuit geohydrologisch
+                                    perspectief altijd bepaald.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -8372,8 +8406,7 @@
                                  eigenschappen van de grond kunnen beïnvloeden.<br clear="none">
                                  Bijzondere bestanddelen hebben gewoonlijk of een natuurlijke of een antropogene herkomst
                                  maar in enkele gevallen is beide mogelijk.<br clear="none">
-                                 Het gegeven wordt vastgelegd bij de beschrijving van monsters uit handboringen en
-                                 uit mechanische boringen.</p>
+                                 Voorkomende bijzondere bestanddelen worden bij toegepaste geologie altijd vastgelegd.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -8414,61 +8447,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Bijzonderbestanddeel_percentageklasse"></a><section id="detail_attribute_Model_Bijzonderbestanddeel_percentageklasse">
-                     <h4>  percentageklasse</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Bijzonder bestanddeel</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>Het procentuele aandeel in het volume, uitgedrukt in een klasse.</p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>0..1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_VolumePercentageklasse">VolumePercentageklasse</a></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Waardelijst uitbreidbaar</td>
-                           </tr>
-                           <tr>
-                              <th>Regels</th>
-                              <td>
-                                 
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>basisHand</em>. </p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van monsters uit handboringen.
-                                    </p>
-                                 </td>
                            </tr>
                         </tbody>
                      </table>
@@ -8514,6 +8492,63 @@
                               <th>Regels</th>
                               <td>
                                  
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em>. </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Onder NEN-EN-ISO 14688 wordt voor de aanduiding van de hoeveelheid van bijzondere
+                                    bestanddelen een indeling van veel en weinig gemaakt.<br clear="none">
+                                    Het gegeven wordt alleen vastgelegd bij de geohydrologische beschrijving van monsters
+                                    uit mechanische boringen en alleen bij natuurlijke bestanddelen.</p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Bijzonderbestanddeel_percentageklasse"></a><section id="detail_attribute_Model_Bijzonderbestanddeel_percentageklasse">
+                     <h4>  percentageklasse</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Bijzonder bestanddeel</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het procentuele aandeel in het volume, uitgedrukt in een klasse.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>0..1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_VolumePercentageklasse">VolumePercentageklasse</a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
                                  <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>percentageklasse</em> aanwezig is. </p>
                                  </td>
                            </tr>
@@ -8521,14 +8556,16 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven wordt alleen vastgelegd bij de geohydrologische beschrijving van monsters
-                                    uit mechanische boringen en alleen bij antropogene bestanddelen.</p>
+                                 <p>Onder NEN-EN-ISO 14688 wordt voor de aanduiding van de hoeveelheid van het bestanddeel
+                                    een indeling van veel en weinig gemaakt.<br clear="none">
+                                    Bij de beschrijving van monsters uit handboringen wordt de hoeveelheid nauwkeuriger
+                                    ingedeeld en wordt een indeling van weinig, matig en veel gemaakt. </p>
                                  </td>
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Bijzonderbestanddeel_lengteklasse"></a><section id="detail_attribute_Model_Bijzonderbestanddeel_lengteklasse">
-                     <h4>  lengteklasse</h4>
+                     </section><a class="anchor" id="detail_attribute_Model_Bijzonderbestanddeel_grootteklasse"></a><section id="detail_attribute_Model_Bijzonderbestanddeel_grootteklasse">
+                     <h4>  grootteklasse</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -8559,7 +8596,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_Lengteklasse">Lengteklasse</a></td>
+                              <td><a class="link" href="#detail_class_Model_GrootteklasseBestanddeel">GrootteklasseBestanddeel</a></td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
@@ -8569,8 +8606,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologischMechanisch</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologischMechanisch</em>.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -8727,8 +8763,7 @@
                               <p>Hoe het voorkomen van brokjes moet worden geïnterpreteerd hangt af van de kwaliteit
                                  van de beschreven monsters. In geroerde monsters zal het voorkomen van brokjes eerder
                                  de expressie zijn van vermenging van lagen die in samenstelling van de grond verschillen.<br clear="none">
-                                 Het gegeven wordt vastgelegd bij de beschrijving van monsters uit handboringen en
-                                 uit mechanische boringen.</p>
+                                 Voorkomende brokjes worden bij toegepaste geologie altijd vastgelegd.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -8765,46 +8800,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td><a class="link" href="#detail_class_Model_SoortBrokje">SoortBrokje</a></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Waardelijst uitbreidbaar</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Brokje_percentageklasse"></a><section id="detail_attribute_Model_Brokje_percentageklasse">
-                     <h4>  percentageklasse</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Brokje</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>Het procentuele aandeel in het volume, uitgedrukt in een klasse.</p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_VolumePercentageklasse">VolumePercentageklasse</a></td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
@@ -8854,6 +8849,63 @@
                               <th>Regels</th>
                               <td>
                                  
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>generiekHand</em>. </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Onder NEN-EN-ISO 14688 wordt voor de aanduiding van de hoeveelheid van brokjes een
+                                    indeling van veel en weinig gemaakt.<br clear="none">
+                                    Het gegeven wordt alleen vastgelegd bij de geohydrologische beschrijving van monsters
+                                    uit mechanische boringen.</p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Brokje_percentageklasse"></a><section id="detail_attribute_Model_Brokje_percentageklasse">
+                     <h4>  percentageklasse</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Brokje</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het procentuele aandeel in het volume, uitgedrukt in een klasse.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_VolumePercentageklasse">VolumePercentageklasse</a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
                                  <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>percentageklasse</em> aanwezig is. </p>
                                  </td>
                            </tr>
@@ -8861,8 +8913,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven wordt alleen vastgelegd bij de geohydrologische beschrijving van monsters
-                                    uit mechanische boringen en alleen bij antropogene bestanddelen.</p>
+                                 <p>Onder NEN-EN-ISO 14688 wordt voor de aanduiding van de hoeveelheid van brokjes een
+                                    indeling van veel en weinig gemaakt.<br clear="none">
+                                    Bij de beschrijving van monsters uit handboringen wordt de hoeveelheid nauwkeuriger
+                                    ingedeeld en wordt een indeling van weinig, matig en veel gemaakt.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -8882,7 +8936,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De grootte van een deeltje uitgedrukt in een klasse.</p>
+                                 <p>De lengte van een brokje uitgedrukt in een klasse.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -8899,7 +8953,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_Lengteklasse">Lengteklasse</a></td>
+                              <td><a class="link" href="#detail_class_Model_LengteklasseBrokje">LengteklasseBrokje</a></td>
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
@@ -9273,7 +9327,7 @@
                                  
                                  <p>Bijzondere bestanddelen worden beschreven wanneer ze belangrijk zijn voor het herleiden
                                     van de oorsprong van het gesteente. In het geval er geen bijzondere bestanddelen aanwezig
-                                    zijn wordt de waarde geen vastgelegd.</p>
+                                    zijn wordt de waarde <em>geen</em> vastgelegd.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -9421,7 +9475,7 @@
                      </section>
                </section><a class="anchor" id="graph_EAID_2B6D44AA_BE24_4922_8557_F72A39007338"></a><a class="anchor" id="global_class_Model_Brokjeingesteente"></a><section id="global_class_Model_Brokjeingesteente">
                   <h3>   Brokje in gesteente</h3>
-                  <div class="imageinfo "><img src="Images/EAID_030AB4FD_72F4_4eed_858C_9E9279110A3F.png" usemap="#imagemap-EAID_030AB4FD_72F4_4eed_858C_9E9279110A3F" alt="Diagram "><map name="imagemap-EAID_030AB4FD_72F4_4eed_858C_9E9279110A3F"><area shape="rect" alt="Brokje in gesteente" coords="10,10,323,98" href="#graph_EAID_2B6D44AA_BE24_4922_8557_F72A39007338"></map><p><b></b></p>
+                  <div class="imageinfo "><img src="Images/EAID_030AB4FD_72F4_4eed_858C_9E9279110A3F.png" usemap="#imagemap-EAID_030AB4FD_72F4_4eed_858C_9E9279110A3F" alt="Diagram "><map name="imagemap-EAID_030AB4FD_72F4_4eed_858C_9E9279110A3F"><area shape="rect" alt="Brokje in gesteente" coords="10,10,323,72" href="#graph_EAID_2B6D44AA_BE24_4922_8557_F72A39007338"></map><p><b></b></p>
                   </div>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -10615,7 +10669,7 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>basisHand</td>
+                     <td>generiekHand</td>
                      <td>
                         
                         <p>De lagen zijn beschreven volgens de eisen gesteld aan het generiek beschrijven van
@@ -12512,6 +12566,60 @@
                </tbody>
             </table>
             </section>
+         <section id="detail_class_Model_GrootteklasseBestanddeel">
+            <h3>  GrootteklasseBestanddeel</h3>
+            
+            <table style="width: 100%;" class="list">
+               <colgroup></colgroup>
+               <tbody>
+                  <tr>
+                     <td>
+                        
+                        <p>De lijst voor de classificatie van de grootte van bijzondere bestanddelen.</p>
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 50%;"></colgroup>
+               <colgroup></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Waarde</th>
+                     <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>fijn2tot5.6mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is tussen de 2,0 en 5,6 mm groot.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>matig5.6tot16mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is tussen de 5,6 en 16 mm groot.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>grof16tot63mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is tussen de 16 en 63 mm groot.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>zeerGrofMinstens63mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is minstens 63 mm groot.</p>
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+            </section>
          <section id="detail_class_Model_Hoekigheid">
             <h3>  Hoekigheid</h3>
             
@@ -13721,6 +13829,60 @@
                </tbody>
             </table>
             </section>
+         <section id="detail_class_Model_LengteklasseBrokje">
+            <h3>  LengteklasseBrokje</h3>
+            
+            <table style="width: 100%;" class="list">
+               <colgroup></colgroup>
+               <tbody>
+                  <tr>
+                     <td>
+                        
+                        <p>De lijst voor de classificatie van de lengte van brokjes grond.</p>
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 50%;"></colgroup>
+               <colgroup></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Waarde</th>
+                     <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>fijn2tot5.6mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is tussen de 2,0 en 5,6 mm groot.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>matig5.6tot16mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is tussen de 5,6 en 16 mm groot.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>grof16tot63mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is tussen de 16 en 63 mm groot.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <td>zeerGrofMinstens63mm</td>
+                     <td>
+                        
+                        <p>Het deeltje is minstens 63 mm groot.</p>
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+            </section>
          <section id="detail_class_Model_Landschapselement">
             <h3>  Landschapselement</h3>
             
@@ -14089,61 +14251,6 @@
                         
                         <p>Natuurlijk zeebodemelement. Ondiepe banken van zand die vaak ontstaan in de branding
                            nabij een strand.</p>
-                        </td>
-                  </tr>
-               </tbody>
-            </table>
-            </section>
-         <section id="detail_class_Model_Lengteklasse">
-            <h3>  Lengteklasse</h3>
-            
-            <table style="width: 100%;" class="list">
-               <colgroup></colgroup>
-               <tbody>
-                  <tr>
-                     <td>
-                        
-                        <p>De lijst voor de classificatie van de lengte van bijzondere bestanddelen en brokjes
-                           grond.</p>
-                        </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            <table style="width: 100%;" class="list">
-               <colgroup style="width: 50%;"></colgroup>
-               <colgroup></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Waarde</th>
-                     <th>Omschrijving</th>
-                  </tr>
-                  <tr>
-                     <td>fijn2tot5.6mm</td>
-                     <td>
-                        
-                        <p>Het deeltje is tussen de 2,0 en 5,6 mm groot.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <td>matig5.6tot16mm</td>
-                     <td>
-                        
-                        <p>Het deeltje is tussen de 5,6 en 16 mm groot.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <td>grof16tot63mm</td>
-                     <td>
-                        
-                        <p>Het deeltje is tussen de 16 en 63 mm groot.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <td>zeerGrofMinstens63mm</td>
-                     <td>
-                        
-                        <p>Het deeltje is minstens 63 mm groot.</p>
                         </td>
                   </tr>
                </tbody>
@@ -15253,7 +15360,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst voor de classificatie van het aandeel silt in fijne gronden.</p>
+                        <p>De lijst voor de classificatie van het aandeel silt in fijne en grove minerale gronden.</p>
                         </td>
                   </tr>
                </tbody>
