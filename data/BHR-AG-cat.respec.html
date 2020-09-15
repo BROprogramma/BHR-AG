@@ -7493,8 +7493,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>Klei</em>.<br clear="none">
-                           Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>geohydrologischMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>Klei</em>.<br clear="none">
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>generiekHand</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>klei</em>.<br clear="none">
+                           Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>geohydrologischMechanisch</em> en de waarde van het attribuut <em>grondsoort ISO 14688</em> gelijk is aan <em>siltigZand</em> of <em>klei</em>.<br clear="none">
                            Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         </td>
                   </tr>
@@ -8929,7 +8929,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -8942,6 +8942,20 @@
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
                      <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>geohydrologischMechanisch</em>.</p>
+                        </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van monsters uit handboringen.</p>
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -12945,7 +12959,8 @@
                <td>
                   
                   <p>Onderzoek met als hoofddoel de geohydrologische eigenschappen van de ondergrond te
-                     bepalen ten behoeve van ...</p>
+                     bepalen ten behoeve van bronbemaling, grondwateronttrekking, drainage, waterinfiltratie,
+                     de potentie voor warmte-koudeopslag of peilbeheer.</p>
                   </td>
             </tr>
             <tr>
