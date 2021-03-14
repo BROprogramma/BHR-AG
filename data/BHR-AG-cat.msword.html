@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Toegepast geologisch booronderzoek (BHR-AG) conceptueel/20210310</p>
       <p>Imvertor: 1.63.0</p>
-      <p>Model release: Conceptualmodel-ToegepastgeologischbooronderzoekBHR-AGconceptueel-0.1-1-20210310-20210314-214736</p>
+      <p>Model release: Conceptualmodel-ToegepastgeologischbooronderzoekBHR-AGconceptueel-0.1-1-20210310-20210314-222227</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -4542,6 +4542,151 @@
                         </tbody>
                      </table>
                   </section>
+               </section><a class="anchor" id="graph_EAID_1CB0936F_94C8_4cfd_939F_06B344530E5D"></a><a class="anchor" id="global_class_Model_Boorsnelheid"></a><section id="global_class_Model_Boorsnelheid">
+                  <h3>   Boorsnelheid</h3>
+                  <div class="imageinfo "><img src="Images/EAID_7155177F_5C5F_4f8f_9C71_31297D4F2561.png" usemap="#imagemap-EAID_7155177F_5C5F_4f8f_9C71_31297D4F2561" alt="Diagram "><map name="imagemap-EAID_7155177F_5C5F_4f8f_9C71_31297D4F2561"><area shape="rect" alt="Boorsnelheid" coords="10,10,187,99" href="#graph_EAID_1CB0936F_94C8_4cfd_939F_06B344530E5D"></map><p><b></b></p>
+                  </div>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>De snelheid waarmee het gat is geboord.</p>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>nee</em>.</p>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>Wanneer het doel is in gesteente te boren, wordt de boorsnelheid voor het hele geboorde
+                                 traject vastgelegd. 
+                                 In de toekomst zal de boorsnelheid mogelijk ook vastgelegd worden bij het boren in
+                                 grond.</p>
+                              </td>
+                        </tr>
+                     </tbody>
+                  </table><a class="anchor" id="detail_attribute_Model_Boorsnelheid_verlopentijd"></a><section id="detail_attribute_Model_Boorsnelheid_verlopentijd">
+                     <h4>  verlopen tijd</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Boorsnelheid</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De tijd tussen het moment waarop de boring is gestart en het moment waarop een bepaalde
+                                    diepte is bereikt, gecorrigeerd voor onderbrekingen.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1..*</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Meetwaarde 
+                                 5.1</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>s (seconde)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td> vanaf 0</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Bij het bepalen van de boorsnelheid wordt het boren als een continu proces beschouwd.</p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Boorsnelheid_diepte"></a><section id="detail_attribute_Model_Boorsnelheid_diepte">
+                     <h4>  diepte</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Boorsnelheid</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De diepte op het moment van de meting.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1..*</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Meetwaarde 
+                                 3.2</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>m (meter)</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td> vanaf 0</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De <em>diepte</em> en <em>verlopen tijd</em> zijn altijd een paar.<br clear="none">
+                                    De waarde van het attribuut mag niet kleiner zijn dan de <em>begindiepte</em> van het bovenste geboord interval.<br clear="none">
+                                    De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.</p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section>
                </section><a class="anchor" id="graph_EAID_833E1A20_D927_46d1_8394_84DCDEEFA572"></a><a class="anchor" id="global_class_Model_Weggegravenlaag"></a><section id="global_class_Model_Weggegravenlaag">
                   <h3>   Weggegraven laag</h3>
                   <div class="imageinfo "><img src="Images/EAID_3F62D512_6833_4cb0_83D5_B44FDBB9E9FC.png" usemap="#imagemap-EAID_3F62D512_6833_4cb0_83D5_B44FDBB9E9FC" alt="Diagram "><map name="imagemap-EAID_3F62D512_6833_4cb0_83D5_B44FDBB9E9FC"><area shape="rect" alt="Weggegraven laag" coords="10,10,254,112" href="#graph_EAID_833E1A20_D927_46d1_8394_84DCDEEFA572"></map><p><b></b></p>
@@ -4960,151 +5105,6 @@
                                  
                                  <p>Het gaat om de diameter van het gat dat door boren is ontstaan. Het uiteindelijk gat
                                     kan groter zijn doordat de wand afbrokkelt of gedeeltelijk instort.</p>
-                                 </td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     </section>
-               </section><a class="anchor" id="graph_EAID_1CB0936F_94C8_4cfd_939F_06B344530E5D"></a><a class="anchor" id="global_class_Model_Boorsnelheid"></a><section id="global_class_Model_Boorsnelheid">
-                  <h3>   Boorsnelheid</h3>
-                  <div class="imageinfo "><img src="Images/EAID_7155177F_5C5F_4f8f_9C71_31297D4F2561.png" usemap="#imagemap-EAID_7155177F_5C5F_4f8f_9C71_31297D4F2561" alt="Diagram "><map name="imagemap-EAID_7155177F_5C5F_4f8f_9C71_31297D4F2561"><area shape="rect" alt="Boorsnelheid" coords="10,10,187,99" href="#graph_EAID_1CB0936F_94C8_4cfd_939F_06B344530E5D"></map><p><b></b></p>
-                  </div>
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th>Type gegeven</th>
-                           <td>Entiteit</td>
-                        </tr>
-                        <tr>
-                           <th>Definitie</th>
-                           <td>
-                              
-                              <p>De snelheid waarmee het gat is geboord.</p>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Regels</th>
-                           <td>
-                              
-                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>nee</em>.</p>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Toelichting</th>
-                           <td>
-                              
-                              <p>Wanneer het doel is in gesteente te boren, wordt de boorsnelheid voor het hele geboorde
-                                 traject vastgelegd. 
-                                 In de toekomst zal de boorsnelheid mogelijk ook vastgelegd worden bij het boren in
-                                 grond.</p>
-                              </td>
-                        </tr>
-                     </tbody>
-                  </table><a class="anchor" id="detail_attribute_Model_Boorsnelheid_verlopentijd"></a><section id="detail_attribute_Model_Boorsnelheid_verlopentijd">
-                     <h4>  verlopen tijd</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Boorsnelheid</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>De tijd tussen het moment waarop de boring is gestart en het moment waarop een bepaalde
-                                    diepte is bereikt, gecorrigeerd voor onderbrekingen.</p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1..*</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde 
-                                 5.1</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Eenheid</th>
-                              <td>s (seconde)</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td> vanaf 0</td>
-                           </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>Bij het bepalen van de boorsnelheid wordt het boren als een continu proces beschouwd.</p>
-                                 </td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Boorsnelheid_diepte"></a><section id="detail_attribute_Model_Boorsnelheid_diepte">
-                     <h4>  diepte</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Boorsnelheid</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>De diepte op het moment van de meting.</p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1..*</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td>Meetwaarde 
-                                 3.2</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Eenheid</th>
-                              <td>m (meter)</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td> vanaf 0</td>
-                           </tr>
-                           <tr>
-                              <th>Regels</th>
-                              <td>
-                                 
-                                 <p>De <em>diepte</em> en <em>verlopen tijd</em> zijn altijd een paar.<br clear="none">
-                                    De waarde van het attribuut mag niet kleiner zijn dan de <em>begindiepte</em> van het bovenste geboord interval.<br clear="none">
-                                    De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
