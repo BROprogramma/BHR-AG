@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Grindmediaanklasse>
+		<Waarde>fijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grindmediaan is groter dan 2 mm en kleiner dan of gelijk aan 6,3 mm. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Grindmediaanklasse>
+	<Grindmediaanklasse>
+		<Waarde>middelgrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grindmediaan is groter dan 6,3 mm en kleiner dan of gelijk aan 20 mm. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Grindmediaanklasse>
+	<Grindmediaanklasse>
+		<Waarde>grof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grindmediaan is groter dan 20 mm en kleiner dan of gelijk aan 63 mm. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Grindmediaanklasse>
+</domeintabel>

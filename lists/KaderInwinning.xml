@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<KaderInwinning>
+		<Waarde>bodemenergieGesloten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek voor de aanleg van een gesloten bodemenergiesysteem.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>bodemenergieOpen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek voor de aanleg van een open bodemenergiesysteem.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>ecohydrologischeVerkenning</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de ecohydrologische eigenschappen van de ondergrond te bepalen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>gebiedsinrichting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek in verband met de herinrichting van een gebied (o.a. landinrichting).</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>gebiedsmodel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek uitgevoerd voor het maken van een model van de geohydrologische opbouw van de ondergrond van een bepaald gebied.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>geleidbaarheidsOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als doel de geleidbaarheid van de ondergrond te bepalen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>geohydrologischeVerkenning</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geohydrologische eigenschappen van de ondergrond te bepalen ten behoeve van bronbemaling, grondwateronttrekking, drainage, waterinfiltratie, de potentie voor warmte-koudeopslag of peilbeheer.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>grondwaterputMonitoring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek voor de aanleg van een grondwatermonitoringput.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>grondwaterputProductie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek voor de aanleg van een put voor het onttrekken van grondwater of het infiltreren water.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>kabelsLeidingen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek voor de aanleg en het onderhoud van kabels en leidingen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>locatieModel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek uitgevoerd voor het bepalen van de geohydrologische opbouw van de ondergrond op een bepaalde locatie.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>natuurgebied</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als doel de inrichting, het beheer en onderhoud van natuurgebieden.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>ontgronding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek ten behoeve van ontgrondingen (bijvoorbeeld zandwinning, grindwinning, baggeren).</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>watersysteem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als doel de inrichting, het beheer en onderhoud van watersystemen.</Omschrijving>
+	</KaderInwinning>
+</domeintabel>

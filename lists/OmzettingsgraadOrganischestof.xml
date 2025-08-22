@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OmzettingsgraadOrganischestof>
+		<Waarde>nietOmgezet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen zichtbare omzetting van organische stof. Plantenresten eenvoudig herkenbaar.</Omschrijving>
+	</OmzettingsgraadOrganischestof>
+	<OmzettingsgraadOrganischestof>
+		<Waarde>gedeeltelijkOmgezet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een deel van de organische stof is omgezet. Een mengsel van herkenbare en niet herkenbare plantenresten.</Omschrijving>
+	</OmzettingsgraadOrganischestof>
+	<OmzettingsgraadOrganischestof>
+		<Waarde>volledigOmgezet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Alle organische stof is omgezet en niet meer herkenbaar als resten van planten (amorf).</Omschrijving>
+	</OmzettingsgraadOrganischestof>
+</domeintabel>

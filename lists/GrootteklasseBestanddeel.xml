@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GrootteklasseBestanddeel>
+		<Waarde>2tot6.3mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deeltje is tussen de 2 en 6.3 mm groot.</Omschrijving>
+	</GrootteklasseBestanddeel>
+	<GrootteklasseBestanddeel>
+		<Waarde>6.3tot20mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deeltje is tussen de 6.3 en 20 mm groot.</Omschrijving>
+	</GrootteklasseBestanddeel>
+	<GrootteklasseBestanddeel>
+		<Waarde>20tot63mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deeltje is tussen de 20 en 63 mm groot.</Omschrijving>
+	</GrootteklasseBestanddeel>
+	<GrootteklasseBestanddeel>
+		<Waarde>minstens63mm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deeltje is minstens 63 mm groot.</Omschrijving>
+	</GrootteklasseBestanddeel>
+</domeintabel>
