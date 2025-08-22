@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Voorbereiding>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft geen voorbereidende werkzaamheden uitgevoerd.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>tijdelijkeVerbuizingVooraf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de ondergrond een buis aangebracht.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>permanenteVerbuizingVooraf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de ondergrond een buis aangebracht die na afloop van de werkzaamheden moet blijven staan.</Omschrijving>
+	</Voorbereiding>
+</domeintabel>

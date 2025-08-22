@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Zandgehalteklasse>
+		<Waarde>matigZandig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand is goed zichtbaar en goed voelbaar aanwezig.</Omschrijving>
+	</Zandgehalteklasse>
+	<Zandgehalteklasse>
+		<Waarde>sterkZandig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand is goed zichtbaar en zeer goed voelbaar aanwezig.</Omschrijving>
+	</Zandgehalteklasse>
+</domeintabel>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortBijzonderBestanddeel>
+		<Waarde>artefact</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: de niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>asbest</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: asbestresten al dan niet geassocieerd met stenig puin.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>asfalt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: asfaltresten al dan niet geassocieerd met stenig puin.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>botresten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: botten, of resten daarvan, afkomstig van gewervelde dieren of mensen. Uitgesloten hiervan zijn resten van vissen. De botresten zijn vaak wit tot grijs van kleur en hebben een grootte van enkele millimeters tot decimeters.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>chemischOlie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: sporen van olie die door de mens is bewerkt.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>chemischVerf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: verfresten.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>chemischTeer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: teerresten.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>donkereMineralen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>geotextiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>glauconiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>glas</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: glas dat niet geassocieerd met huisvuil voorkomt, maar los of geassocieerd met stenig puin.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>glimmer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Synoniem is mica.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>houtGebruikt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>houtskool</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout. Het materiaal is zwart, vaak gebroken en heeft meestal een grootte van millimeters tot enkele decimeters.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: niet nader omschreven huishoudelijk afval.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>huisvuilMetPlastic</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: huishoudelijk afval dat plastic bevat en verder onder meer bestaat uit verpakkingsmateriaal, klein aardewerk, metaal, glas en eventueel etensresten.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>huisvuilZonderPlastic</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: huishoudelijk afval dat geen plastic bevat, maar bijvoorbeeld uit verpakkingsmateriaal, klein aardewerk, metaal, glas en eventueel etensresten bestaat.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>ijzerconcreties</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: korrels of brokken samengesteld materiaal van neergeslagen ijzerverbindingen in een matrix van zand en/of grind, klei of silt. Het is meestal geel-bruin, rood-bruin of donker-bruin van kleur (roestig) maar kan als het opengebroken wordt van binnen donkergrijs tot bijna zwart zijn. De grootte van de brokken zijn meestal 0,5 tot 50 mm, maar grote brokken zijn mogelijk. De concreties komen soms in laagjes voor.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>ijzersulfide</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>kalkconcreties</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: delen van de grond die door calciumcarbonaat tot een geheel zijn samengekit. Omvat een scala aan verschijningsvormen, van lösspoppetjes tot septariën. Lössafzettingen daargelaten, komen de concreties overwegend voor in Tertiaire kleilagen. De grootte ligt meestal tussen enkele centimeters en enkele decimeters.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>kalkGemaakt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>metaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: metaal dat niet geassocieerd met huisvuil voorkomt, maar los of geassocieerd met stenig puin.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtKunststof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtStenig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>plantenrestenHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de niet-houtige delen van planten, zoals worteltjes, rietstengels en bladeren.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>plastic</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: plastic afval dat niet geassocieerd met huisvuil voorkomt, maar los of geassocieerd met stenig puin, bijvoorbeeld resten landbouwplastic, industrieel plastic of plastic korrels.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>puinStenig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: bouw- en sloopafval, een mengsel van louter stenige materialen die door de mens gemaakt of bewerkt zijn, waarin geen materialen als asbest, asfalt, metaal of plastic voorkomen.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>schelpmateriaalGruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: schelpmateriaal dat uit gruis bestaat. Gruis zijn stukjes schelp die kleiner zijn dan 2 mm.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>schelpmateriaalFragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: schelpmateriaal dat uit fragmenten bestaat. Fragmenten zijn stukjes schelp die groter zijn dan 2 mm.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>schelpmateriaalHeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: schelpmateriaal dat uit hele schelpen bestaat.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>verbrandingsresten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: minerale verbrandingsresten met een diameter die varieert van kleiner dan 63 µm tot groter dan 2 mm.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>vuursteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+	<SoortBijzonderBestanddeel>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen bestanddeel: materiaal dat in gebruik is als verharding van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. Hieronder valt ook halfverharding in de vorm van lavagruis, schelpengruis, en andere verharde opgebrachte grondmengsels.</Omschrijving>
+	</SoortBijzonderBestanddeel>
+</domeintabel>

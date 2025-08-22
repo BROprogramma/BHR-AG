@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<VolumePercentageklasse>
+		<Waarde>weinigTot5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt weinig voor en dat betekent dat het aandeel in het volume minder dan 5 % is.</Omschrijving>
+	</VolumePercentageklasse>
+	<VolumePercentageklasse>
+		<Waarde>matig5tot15</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt veel voor en dat betekent dat het aandeel in het volume tussen 5 en 15 % is.</Omschrijving>
+	</VolumePercentageklasse>
+	<VolumePercentageklasse>
+		<Waarde>veel15tot50</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt zeer veel voor en dat betekent dat het aandeel in het volume tussen 15 en 50 % is.</Omschrijving>
+	</VolumePercentageklasse>
+</domeintabel>

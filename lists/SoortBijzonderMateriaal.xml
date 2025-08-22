@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortBijzonderMateriaal>
+		<Waarde>asVulkanisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: vulkanisch materiaal met een korrelgrootte kleiner dan 4 mm.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>betonOngebroken</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>chemischTeer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: teerresten.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>chemischVerf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: verfresten.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>geotextiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>glauconietzand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: zand dat in hoofdzaak bestaat uit groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>houtGebruikt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: niet nader omschreven huishoudelijk afval.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>huisvuilMetPlastic</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: huishoudelijk afval dat plastic bevat en verder onder meer bestaat uit verpakkingsmateriaal, klein aardewerk, metaal, glas en eventueel etensresten.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>huisvuilZonderPlastic</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: huishoudelijk afval dat geen plastic bevat, maar bijvoorbeeld uit verpakkingsmateriaal, klein aardewerk, metaal, glas en eventueel etensresten bestaat.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>kalkGemaakt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>kalkNatuurlijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: Een vrijwel geheel uit kalk bestaand sediment dat niet als gesteente is geclassificeerd.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>oer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: IJzerverkitting die op natuurlijke wijze door inspoeling is gevormd. De aanwezigheid van organische stof niet nader omschreven.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>oerNietOrganisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: IJzerverkitting die op natuurlijke wijze door inspoeling is gevormd. De kleur varieert tussen oranje en rood en dat wijst erop dat er geen organische stof aanwezig is.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>oerZwakOrganisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: IJzerverkitting die op natuurlijke wijze door inspoeling is gevormd. De kleur varieert tussen oranje en lichtbruin (roestig) en dat wijst erop dat de laag organische stof bevat.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>oerSterkOrganisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: IJzerverkitting die op natuurlijke wijze door inspoeling is gevormd. De kleur varieert tussen lichtbruin en donkerbruin (roestig) en dat wijst erop dat de laag veel organische stof bevat.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>ophoogmateriaalLichtKunststof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>ophoogmateriaalLichtStenig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>ophoogmateriaalZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: zand of een mengsel van zand en stenige materialen dat is gebruikt als ophoogmateriaal of als funderingslaag onder wegverhardingen (onder andere stabilisatiezand), eventueel aangebracht in een cunet, of in gebruik is als voorbelasting.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>plantenrestenHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: de houtige, onverteerde resten van planten, zoals stammen, takken en houtige wortels.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>plantenrestenNietHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: de niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>puinMetToevoeging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: bouw- en sloopafval, een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn met daarin ook niet-stenig materiaal zoals asbest, asfalt, metaal of plastic.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>puinStenig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: bouw- en sloopafval, een mengsel van louter stenige materialen die door de mens gemaakt of bewerkt zijn, waarin geen materialen als asbest, asfalt, metaal of plastic voorkomen. Soilmix, een mengsel van de grond ter plaatse met materiaal als cement of waterglas, wordt tot de stenig materialen gerekend.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>schelpmateriaalGruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: schelpmateriaal dat uit gruis bestaat. Gruis zijn stukjes schelp die kleiner zijn dan 2 mm.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>schelpmateriaalFragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: schelpmateriaal dat uit fragmenten bestaat. Fragmenten zijn stukjes schelp die groter zijn dan 2 mm.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>schelpmateriaalHeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: schelpmateriaal dat uit hele schelpen bestaat.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>soilmix</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: een mengsel van de grond ter plaatse met een materiaal als cement of waterglas; wordt bijvoorbeeld als grondverbetering gebruikt voor grondkeringen.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>verbrandingsresten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter die varieert van kleiner dan 63 µm tot groter dan 2 mm.</Omschrijving>
+	</SoortBijzonderMateriaal>
+	<SoortBijzonderMateriaal>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</Omschrijving>
+	</SoortBijzonderMateriaal>
+</domeintabel>

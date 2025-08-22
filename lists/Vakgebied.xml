@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Vakgebied>
+		<Waarde>toegepasteGeologie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Booronderzoek uitgevoerd vanuit toegepast geologische expertise.</Omschrijving>
+	</Vakgebied>
+	<Vakgebied>
+		<Waarde>toegepasteGeologieArcheologie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Booronderzoek uitgevoerd vanuit toegepast geologische expertise met ondersteuning vanuit archeologische expertise.</Omschrijving>
+	</Vakgebied>
+	<Vakgebied>
+		<Waarde>toegepasteGeologieArcheologieMilieukunde</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Booronderzoek uitgevoerd vanuit toegepast geologische expertise met ondersteuning vanuit archeologische en milieukundige expertise.</Omschrijving>
+	</Vakgebied>
+	<Vakgebied>
+		<Waarde>toegepasteGeologieMilieukunde</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Booronderzoek uitgevoerd vanuit toegepast geologische expertise met ondersteuning vanuit milieukundige expertise.</Omschrijving>
+	</Vakgebied>
+</domeintabel>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Siltgehalteklasse>
+		<Waarde>nietSiltig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Silt is niet voelbaar aanwezig.</Omschrijving>
+	</Siltgehalteklasse>
+	<Siltgehalteklasse>
+		<Waarde>zwakSiltig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Silt is nauwelijks voelbaar aanwezig.</Omschrijving>
+	</Siltgehalteklasse>
+	<Siltgehalteklasse>
+		<Waarde>matigSiltig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Silt is goed voelbaar aanwezig.</Omschrijving>
+	</Siltgehalteklasse>
+	<Siltgehalteklasse>
+		<Waarde>sterkSiltig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Silt is zeer goed voelbaar aanwezig.</Omschrijving>
+	</Siltgehalteklasse>
+</domeintabel>
