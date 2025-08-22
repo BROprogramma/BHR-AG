@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bemonsteringsprocedure>
+		<Waarde>bedrijfSpecifiek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is een door de uitvoerder van de boring voor het eigen bedrijf opgestelde procedure gevolgd.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>ISO22475d1v2006</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 22475-1:2006 &lt;i&gt;Methoden voor monsterneming en grondwatermeting - Deel 1: Technische grondslagen voor de uitvoering&lt;/i&gt;. Een internationale norm geaccepteerd door Nederland en Europa.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>ISO22475d1v2021</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 22475-1:2021 &lt;i&gt;Methoden voor monsterneming en grondwatermeting - Deel 1: Technische grondslagen voor de uitvoering&lt;/i&gt;. Een internationale norm geaccepteerd door Nederland en Europa.</Omschrijving>
+	</Bemonsteringsprocedure>
+</domeintabel>

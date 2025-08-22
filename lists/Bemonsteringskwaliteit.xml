@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bemonsteringskwaliteit>
+		<Waarde>klasseA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bemonstering is erop gericht ongestoorde monsters te verkrijgen en irreversibele veranderingen in de spanningstoestand te voorkomen. Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen. De monsters zijn opgeslagen en getransporteerd in afgesloten monstercontainers van voldoende sterkte om beschadiging en vochtverlies te voorkomen. De monstercontainers zijn op locatie, tijdens transport en in het laboratorium opgeslagen in een omgeving waar de temperatuur tussen 8 en 12 graden C mag variëren en de luchtvochtigheid minimaal 90 % bedraagt. De monstercontainers zijn tijdens transport beschermd tegen trillingen en schokken.</Omschrijving>
+	</Bemonsteringskwaliteit>
+	<Bemonsteringskwaliteit>
+		<Waarde>klasseB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bemonstering is erop gericht ongestoorde monsters te verkrijgen waarbij verandering in de spanningstoestand wordt geaccepteerd. Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen. De monsters zijn opgeslagen en getransporteerd in afgesloten monstercontainers van voldoende sterkte om beschadiging en vochtverlies te voorkomen. De monstercontainers zijn beschermd tegen trillingen en schokken en extreme temperatuur.</Omschrijving>
+	</Bemonsteringskwaliteit>
+	<Bemonsteringskwaliteit>
+		<Waarde>klasseC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bemonstering is erop gericht monsters te verkrijgen waarin de gelaagdheid en de interne structuur behouden blijft. Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen. De monsters zijn opgeslagen en getransporteerd in afgesloten monstercontainers van voldoende sterkte om beschadiging en vochtverlies te voorkomen.</Omschrijving>
+	</Bemonsteringskwaliteit>
+	<Bemonsteringskwaliteit>
+		<Waarde>klasseD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bemonstering is erop gericht monsters te verkrijgen waarin de gelaagdheid behouden blijft. Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen. De monsters kunnen in PVC of metalen monstercontainers e.d. zijn verzameld en opgeslagen.</Omschrijving>
+	</Bemonsteringskwaliteit>
+	<Bemonsteringskwaliteit>
+		<Waarde>klasseE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bemonstering is erop gericht een goede indruk te krijgen van de samenstelling van de ondergrond. Er gelden geen bijzondere eisen. De monsters kunnen in monsterbakken, zakken, potten e.d. verzameld en opgeslagen zijn.</Omschrijving>
+	</Bemonsteringskwaliteit>
+</domeintabel>

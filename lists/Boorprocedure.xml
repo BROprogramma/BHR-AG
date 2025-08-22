@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Boorprocedure>
+		<Waarde>bedrijfSpecifiek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is een door de uitvoerder van de boring voor het eigen bedrijf opgestelde procedure gevolgd.</Omschrijving>
+	</Boorprocedure>
+	<Boorprocedure>
+		<Waarde>SIKB2001vanafV6.0</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>SIKB protocol 2001 &lt;i&gt;Plaatsen van handboringen en peilbuizen&lt;/i&gt;, &lt;i&gt;maken van boorbeschrijvingen&lt;/i&gt;, &lt;i&gt;nemen van grondmonsters en waterpassen&lt;/i&gt;. Versie 6.0 en opvolgende versies die geen relevante wijzigingen voor (de gegevens van) het booronderzoek bevatten.</Omschrijving>
+	</Boorprocedure>
+	<Boorprocedure>
+		<Waarde>SIKB2101vanafV3.3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>SIKB protocol 2101 &lt;i&gt;Mechanisch boren&lt;/i&gt;. Versie 3.3 en opvolgende versies die geen relevante wijzigingen voor (de gegevens van) het booronderzoek bevatten.</Omschrijving>
+	</Boorprocedure>
+</domeintabel>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Afzettingskarakteristiek>
+		<Waarde>basisveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De onderste holocene veenlaag liggend op pleistocene afzettingen. Door compactie als gevolg van bedekking met sediment meestal steviger dan bovenliggende veenlagen.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>basisveenOnbelast</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De onderste holocene veenlaag liggend op pleistocene afzettingen. Niet op grond van consistentie te onderscheiden van bovenliggende veenlagen.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>begravenBodem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een bodem die na vorming bedekt is geraakt door sedimentatie of door de mens.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>begravenWaterbodem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een waterbodem die na vorming bedekt is geraakt door sedimentatie of door de mens.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>dekzand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meestal fijn, uniform, afgerond zand, door de wind over grote gebieden afgezet in de ijstijden. In delen aan de oppervlakte, elders scherpe bovengrens met holocene veen- of kleilagen.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinKust</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijn, uniform zand in oppervlakkige en begraven zandruggen in de vorm van duinen langs de kust.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>duinRivier</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Matig grof, uniform zand in oppervlakkige en begraven zandruggen in de vorm van duinen langs de rivieren.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielBeek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Siltige of kleiige afzetting van met slibrijk water overstroomde beekdalen.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>fluviatielKomklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei afgezet in overloopgebied van een rivier.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalKeileem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sterk zandige tot uiterst siltige vaste veelal grijze klei met grove tot zeer grove secundaire fractie, als grondmorene gevormd onder de ijskap van de voorlaatste ijstijd (Saalien).</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalKeizand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijn tot grof zand met grindkorrels en nog grover materiaal, dat als het uitspoelingsresidu van keileem wordt beschouwd.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalPotklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zwak tot matig siltig of zandige, stevig tot (zeer) harde, veelal kalkrijke en glimmerhoudende, licht- tot donkergrijze, of donkerbruine tot zwarte, nabij het maaiveld door oxidatie soms rode klei. Sedimenten die afgezet zijn in diepe sub-glaciale smeltwatergeulen, direct na het afsmelten van het Elsterien landijs. Hoge tot zeer hoge lutum percentages zijn kenmerkend, in enkele gevallen oplopend tot 60 %. Klei soms gelamineerd.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>glaciaalWarvenklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer regelmatig gelamineerde opeenvolging ontstaan door seizoensinvloed op afzetting in glaciaal meer, bijvoorbeeld glaciale klei in Bekken. Warven tonen een afwisseling in zomerlagen (licht) en winterlagen (donker).</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>katteklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zure klei ontstaan door oxidatie van sulfiderijke klei; vaak gele en of rode verkleuring (vlekken). Katteklei komt voornamelijk voor in droogmakerijen.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>kwelderklei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei die op een kwelder is afgezet, vaak aangeduid als knikklei of knipklei.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>loess</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne grond, die in het algemeen voor meer dan 75 % uit kwartskorrels bestaat met een korrelgrootte tussen 2 en 63 µm en door de wind is afgezet. Ligt vaak rechtstreeks op grindlagen die door de Maas zijn afgezet.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienLagunair</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die in een lagunemilieu is afgezet.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>marienGetijde</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die in een waddenmilieu is afgezet.</Omschrijving>
+	</Afzettingskarakteristiek>
+	<Afzettingskarakteristiek>
+		<Waarde>verweerdGesteente</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die het product is van verwerking van onderliggend intact gesteente. Gekenmerkt door naast elkaar voorkomen van brokken onverweerd gesteente en volledig verweerd materiaal, dat als klei, silt of zand wordt beschreven.</Omschrijving>
+	</Afzettingskarakteristiek>
+</domeintabel>

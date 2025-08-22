@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ConsistentieFijneGrond>
+		<Waarde>zeerSlap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond waar een vinger gemakkelijk tot 25 mm in kan worden gedrukt en die tussen de vingers door loopt wanneer de hand wordt samengeknepen. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</ConsistentieFijneGrond>
+	<ConsistentieFijneGrond>
+		<Waarde>slap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond waar een vinger tot 10 mm kan worden gedrukt en die met lichte druk van de vingers kan worden verkneed. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</ConsistentieFijneGrond>
+	<ConsistentieFijneGrond>
+		<Waarde>stevig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die met de duim gemakkelijk kan worden ingedrukt en niet met de vingers kan worden verkneed, maar wel tot 3 mm dikke strengen kan worden uitgerold zonder te breken of te verkruimelen. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</ConsistentieFijneGrond>
+	<ConsistentieFijneGrond>
+		<Waarde>stijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond waar met de duim een ondiepe voor in kan worden gemaakt en die verkruimelt en breekt wanneer de grond tot 3 mm dikke strengen wordt uitgerold, maar nog vochtig genoeg is om weer tot een bol te worden gekneed. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</ConsistentieFijneGrond>
+	<ConsistentieFijneGrond>
+		<Waarde>zeerStijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond waar nog net een kerf in kan worden gemaakt met de nagel van de duim. De grond kan niet meer worden vervormd en verkruimelt onder druk. Vaak is deze grond uitgedroogd. De grond heeft meestal een lichte kleur. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</ConsistentieFijneGrond>
+</domeintabel>
