@@ -40,19 +40,19 @@
 		<Waarde>kalksteenFijnkorrelig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het gesteente bestaat voor meer dan 50 % uit korrels van calciumcarbonaat (CaCOsub3/subkalk) waarvan de mediaan kleiner is dan 0,063 mm.</Omschrijving>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50 % uit korrels van calciumcarbonaat (CaCO<sub>3</sub> kalk) waarvan de mediaan kleiner is dan 0,063 mm.</Omschrijving>
 	</SoortGesteente>
 	<SoortGesteente>
 		<Waarde>kalksteenGrofkorrelig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het gesteente bestaat voor meer dan 50 % uit korrels van calciumcarbonaat (CaCOsub3/subkalk) waarvan de mediaan tussen 0,063 en 2 mm ligt.</Omschrijving>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50 % uit korrels van calciumcarbonaat (CaCO<sub>3</sub> kalk) waarvan de mediaan tussen 0,063 en 2 mm ligt.</Omschrijving>
 	</SoortGesteente>
 	<SoortGesteente>
 		<Waarde>kalksteenHardsteen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het gesteente bestaat voor meer dan 50 % uit calciumcarbonaat (CaCO3/subkalk) en korrels zijn niet (meer) herkenbaar.</Omschrijving>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50 % uit calciumcarbonaat (CaCO<sub>3</sub> kalk) en korrels zijn niet (meer) herkenbaar.</Omschrijving>
 	</SoortGesteente>
 	<SoortGesteente>
 		<Waarde>kleisteenMassief</Waarde>
